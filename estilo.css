@@ -1,0 +1,594 @@
+body{
+    background-image: url("./img/1B.jpg");
+    background-size: cover;
+
+       
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* el contenedor principal del la plantilla de inicio de navegacion de usuario */
+.containerPrincipal{
+  
+
+     background-color: grey;
+     background-image: url("https://wallpapers.com/images/high/indigo-ggt7xhxuo1yn46n7.webp");
+    /* width: 100%; */
+    height: 118vh;
+    border:solid black 3px;
+     gap:2px; 
+
+     display: flex;
+     flex-direction: column;
+     margin-top: 2px;
+
+        
+    background-position: center;
+
+   background-size: cover;
+   
+
+
+}
+
+.contenedorCabecera{
+   
+    
+    height: 18vh;
+   border:solid black 1px;
+     background-color:transparent;
+    background-repeat: no-repeat;
+    background-size: cover;;
+    
+
+             background: rgba(158, 82, 185, 0.7); /*semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+   text-align: center;
+
+}
+
+.contenedorNavBar{
+    border:solid black 1px;
+    height: 8vh;
+
+    /* background-color: rgb(180, 158, 182); */
+    
+
+             background: rgba(97, 54, 112, 0.7); /*semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-around; */
+}
+
+.contenedorNavBar button{
+    /* flex:2; */
+   
+    font-size: 15px;
+    width:30%;
+
+
+    
+
+
+    padding: 0;
+    overflow: hidden;
+    border-right: 1px black solid;
+    border-left: 1px white solid;
+
+    border-top: white solid 1px;
+    border-bottom: black 1px solid;
+
+    /* background:linear-gradient(90deg, #07000A, #A63EDA, #FFFFFF); */
+
+    /* background:linear-gradient(90deg, #691096, #a456d4, #FFFFFF); */
+
+    background:linear-gradient(90deg, #FCFCFD, #A63EDA, #1E0800);
+    /* background:linear-gradient(90deg, #FCFCFD, #A63EDA, #FFFFFF, #FFFFFF) */
+}
+
+.contenedorNavBar button:hover{
+     border-right: white solid 1px;
+  border-left: black solid 3px;
+
+  border-top: 1px black solid;
+  border-bottom: 1px white solid;
+
+  color:white;
+}
+
+.contenedorInicio{
+
+    border:solid black 1px;
+
+    
+    height: 78vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("./img/1g.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;;
+    
+ 
+
+
+
+}
+
+
+/* 
+.panelIzquierdo{
+    border:solid black 1px;
+    width: 18%;
+     background-image: url("./img/1H.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+/* 
+.panelCentral{
+    width: 36%;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:3px;
+
+    align-items: center;
+    overflow-y: scroll;
+     background-image: url("./img/1H.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+} */
+/* 
+.panelDerecho{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("./img/1H.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+} */
+
+.miniCardProducto{
+    
+
+    /* border:solid black 1px;
+  
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    padding:0px;
+
+  
+   flex-wrap: wrap;
+height:100vh;
+background-color: aquamarine;
+  */
+
+
+
+
+    width: 45%;
+    height: 70%;
+    border:solid black 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    align-items: top;
+    justify-content: top;
+    flex-wrap: wrap;
+       
+    
+}
+
+.miniCardProductoImg{
+
+    /* border:solid red 1px;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 70%;
+     */
+    
+    background-image: url("./img/Productos/Tazas/juraBanderaArgentina_plastico.png");
+
+       border:solid black 8px;
+     height: 65%;
+   
+     /* background-image: url("./img/1A.jpg"); */
+     background-repeat: no-repeat;
+     background-size: cover;
+
+   
+}
+
+
+.miniCardProductoDescripcion{
+
+    border: solid white 1px;
+   
+    color:white;
+    /* font-size: 1.2rem; */
+    /* height: 50vh; */
+    text-align: center;
+
+     background: rgba(67, 14, 87, 0.7); /*semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+
+display: flex;
+flex-direction: column;
+align-items: top;
+justify-content: top;
+overflow: hidden;
+   
+    height: 35%;
+   
+    
+}
+/* 
+.panelDerechoImg{
+    border: solid green 1px;
+    width: 98%;
+    height: 50%;
+
+      background-image: url("./img/1A.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+
+} */
+/* 
+.panelDerechoDescripcion{
+    border:solid red 1px;
+    width: 98%;
+    height: 48%;
+    background-color: transparent;
+
+} */
+.divContenedorInicio{
+    border:solid black 1px;
+    height: 90vh;
+   overflow: hidden;
+
+    width:100%; 
+   
+    
+}
+
+/* .divContenedorInicio div{
+    border:solid black 1px;
+    height: 100%;
+
+} */
+
+#divContenedorInicio2{
+    border:solid black 1px;
+    height: 100%;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    */
+
+    
+}
+
+
+
+#ventanaVistaPequena{
+    border:solid white 1px;
+    height: 90%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:2px 2px;
+   overflow-y: scroll;
+   background-color: green; */
+
+
+
+
+/* 
+      width: 36%; */
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:3px;
+}
+
+
+#ventanaVistaGrande{
+    border:solid black 1px;
+    
+      
+    
+    height: 95%;
+    background-color: transparent;
+    /* margin:2px 2px; */
+
+}
+
+#tituloMiniCards{
+    border:solid white 1px;
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+
+    /* margin: 1px auto auto auto; */
+}
+
+#contenidoVistaChica{
+    border:solid white 1px;
+    height: 87%;
+ width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+    align-items: center;
+    overflow-y: scroll;
+     /* background-image: url("./img/1H.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+   */
+     
+    
+}
+
+#contenedorCarrouselVistaProducto{
+    border:solid white 1px;
+    height: 43%;
+    margin:1px auto auto auto;
+
+}
+
+#contenedorDetallesVistaProducto{
+    border:solid white 1px;
+    height: 43%;
+    margin: 1px auto auto auto;
+   
+}
+
+#barraFiltros{
+    /* margin:2px 2px; */
+    /* width: 99%; */
+     border:solid white 1px;
+     display: flex;
+     flex-direction: row;
+     gap: 1%;
+
+         background: rgba(97, 54, 112, 0.7); /*semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+
+}
+
+#barraFiltros button{
+ color:black;
+
+    /* width:10%; */
+   
+    padding: 0px;
+
+ text-align: top center;
+
+     height: 50%;
+     margin-left: 2%;
+     margin-bottom: 10px;
+      box-shadow: 5px 5px 10px rgba(245, 238, 238, 0.3);
+
+     
+}
+
+#barraFiltros button:hover{
+    background: rgb(186, 90, 206);
+  /* backdrop-filter: blur(12px); */
+
+          /* background: rgba(244, 236, 247, 0.7); /*semitransparente */
+/*     
+   backdrop-filter: blur(12px); 🔥 esto crea el efecto borroso  */
+
+
+
+
+ 
+}
+#barraFiltros button:active{
+border: 2px inset  black;
+ /* box-shadow: 5px 5px 10px rgba(0,0,0,0.3); */
+
+ box-shadow: inset 0 2px 5px rgba(0,0,0,0.3);
+color:white;
+
+ font-weight: bold;
+}
+
+
+#contenidoBarraFiltros{
+    border:solid grey 1px;
+ 
+
+  
+}
+
+@media screen and (max-width:768px){
+
+   
+   #barraFiltros button{
+    /* width: 10%; */
+    
+
+    overflow: hidden;
+
+ 
+    /* background-color: rgb(132, 209, 145);  */
+    background-color:  #a456d4;
+    color:white;
+    height: 20px;
+
+    border-right: black 3px solid;
+    border-bottom: black 3px solid;
+    margin-bottom: 1px;
+   
+};
+}
+
+@media screen and (max-width:380px){
+
+   #barraFiltros button{
+    width: 30%;
+    background-color: #a456d4;
+    margin-left: 0px;
+    font-size: 0.5px;
+ 
+  };
+  
+}
+
+@media screen and (min-width:768px) and (max-width:990px){
+    #barraFiltros{
+        flex-direction: column;
+        /* background-color: blue; */
+      height: 100vh;
+        overflow-y: scroll;
+    
+    
+    };
+    #barraFiltros button{
+        width:100%;
+        font-size: 10px;
+        background-color:  #a456d4;
+
+
+    };
+
+} 
+
+@media screen and (max-width:768px){
+    #barraFiltros{
+      
+        height: 10vh;
+         justify-content: center;
+ 
+    
+         display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start; 
+    overflow-y: scroll;
+
+ 
+    };
+
+    #barraFiltros button{
+     
+        margin-top: 2px;
+        width:auto;
+        text-align: center;
+              font-size: 0.6rem;
+         
+           
+    }
+
+
+
+   
+}
+
+.sinPadding{
+    padding:0px;
+}
+
+
+
+@media screen and(min-width:1100px){
+
+ 
+    #barraFiltros button{
+        background-color: green;
+        height: 10vh;
+
+    };
+}
+ @media screen and (min-width:990px) 
+ {
+    #barraFiltros{
+            /* border:solid red 3px; */
+       height: 15vh;
+      
+           display: flex;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+
+        
+    
+    };
+    #barraFiltros button{
+          font-size:1rem;
+              
+              background-color:  #a456d4;;
+    
+              
+        border-top: black 2px;
+        border-left: black 2px;
+
+        border-bottom: white 1.5px solid;
+        border-right: white 1.5px solid;
+        height: 25%;
+    };
+}
+/* 
+#contenidoVistaChica{
+
+     border:solid black 4px;
+
+   overflow-y: scroll;
+   gap:2px; 
+    display: flex;
+   flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+
+
+    width: 100%;
+      display: flex;
+    flex-direction: row;
+    padding: 1px;
+  
+    flex-wrap: wrap;
+    gap:3px; 
+
+  
+    
+} */
+#contenidoVistaChica div{
+   /* width: 100%;
+   height:100%; */
+   
+}
