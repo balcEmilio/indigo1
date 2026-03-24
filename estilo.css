@@ -2,7 +2,7 @@ body{
     background-image: url("./img/1B.jpg");
     background-size: cover;
 
-       
+    
 }
 
 * {
@@ -18,14 +18,14 @@ body{
      background-image: url("https://wallpapers.com/images/high/indigo-ggt7xhxuo1yn46n7.webp");
     /* width: 100%; */
     height: 118vh;
-    border:solid black 3px;
+    border:solid red 3px;
      gap:2px; 
 
      display: flex;
      flex-direction: column;
      margin-top: 2px;
 
-        
+        width: 100%;
     background-position: center;
 
    background-size: cover;
@@ -67,12 +67,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    /* align-items: center;
-    justify-content: space-around; */
+ 
 }
 
 .contenedorNavBar button{
-    /* flex:2; */
+
    
     font-size: 15px;
     width:30%;
@@ -127,146 +126,9 @@ body{
 }
 
 
-/* 
-.panelIzquierdo{
-    border:solid black 1px;
-    width: 18%;
-     background-image: url("./img/1H.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-} */
-/* 
-.panelCentral{
-    width: 36%;
-    display: flex;
-    flex-direction: row;
-    padding: 1px;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap:3px;
-
-    align-items: center;
-    overflow-y: scroll;
-     background-image: url("./img/1H.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    
-} */
-/* 
-.panelDerecho{
-    width: 38%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    background-image: url("./img/1H.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-} */
-
-.miniCardProducto{
-    
-
-    /* border:solid black 1px;
-  
-   display: flex;
-   flex-direction: column;
-    align-items: center;
-    padding:0px;
-
-  
-   flex-wrap: wrap;
-height:100vh;
-background-color: aquamarine;
-  */
 
 
 
-
-    width: 45%;
-    height: 70%;
-    border:solid black 1px;
-    display: flex;
-    flex-direction: column;
-    padding: 1px;
-    align-items: top;
-    justify-content: top;
-    flex-wrap: wrap;
-       
-    
-}
-
-.miniCardProductoImg{
-
-    /* border:solid red 1px;
-
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    height: 70%;
-     */
-    
-    background-image: url("./img/Productos/Tazas/juraBanderaArgentina_plastico.png");
-
-       border:solid black 8px;
-     height: 65%;
-   
-     /* background-image: url("./img/1A.jpg"); */
-     background-repeat: no-repeat;
-     background-size: cover;
-
-   
-}
-
-
-.miniCardProductoDescripcion{
-
-    border: solid white 1px;
-   
-    color:white;
-    /* font-size: 1.2rem; */
-    /* height: 50vh; */
-    text-align: center;
-
-     background: rgba(67, 14, 87, 0.7); /*semitransparente */
-    
-   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
-
-display: flex;
-flex-direction: column;
-align-items: top;
-justify-content: top;
-overflow: hidden;
-   
-    height: 35%;
-   
-    
-}
-/* 
-.panelDerechoImg{
-    border: solid green 1px;
-    width: 98%;
-    height: 50%;
-
-      background-image: url("./img/1A.jpg");
-     background-repeat: no-repeat;
-     background-size: cover;
-
-} */
-/* 
-.panelDerechoDescripcion{
-    border:solid red 1px;
-    width: 98%;
-    height: 48%;
-    background-color: transparent;
-
-} */
 .divContenedorInicio{
     border:solid black 1px;
     height: 90vh;
@@ -277,19 +139,11 @@ overflow: hidden;
     
 }
 
-/* .divContenedorInicio div{
-    border:solid black 1px;
-    height: 100%;
-
-} */
 
 #divContenedorInicio2{
     border:solid black 1px;
     height: 100%;
     overflow: hidden;
-    /* display: flex;
-    justify-content: center;
-    */
 
     
 }
@@ -298,26 +152,9 @@ overflow: hidden;
 
 #ventanaVistaPequena{
     border:solid white 1px;
-    height: 90%;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin:2px 2px;
-   overflow-y: scroll;
-   background-color: green; */
+    height: 83%;
+   
 
-
-
-
-/* 
-      width: 36%; */
-    display: flex;
-    flex-direction: row;
-    padding: 1px;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap:3px;
 }
 
 
@@ -328,7 +165,7 @@ overflow: hidden;
     
     height: 95%;
     background-color: transparent;
-    /* margin:2px 2px; */
+  
 
 }
 
@@ -338,7 +175,6 @@ overflow: hidden;
     width: 100%;
     background-color: transparent;
 
-    /* margin: 1px auto auto auto; */
 }
 
 #contenidoVistaChica{
@@ -354,10 +190,7 @@ overflow: hidden;
 
     align-items: center;
     overflow-y: scroll;
-     /* background-image: url("./img/1H.jpg"); */
-    /* background-repeat: no-repeat;
-    background-size: cover;
-   */
+    
      
     
 }
@@ -383,6 +216,7 @@ overflow: hidden;
      display: flex;
      flex-direction: row;
      gap: 1%;
+     height: 8%;
 
          background: rgba(97, 54, 112, 0.7); /*semitransparente */
     
@@ -395,13 +229,14 @@ overflow: hidden;
 
     /* width:10%; */
    
-    padding: 0px;
+
 
  text-align: top center;
 
-     height: 50%;
+
+
      margin-left: 2%;
-     margin-bottom: 10px;
+     /* margin-bottom: 10px; */
       box-shadow: 5px 5px 10px rgba(245, 238, 238, 0.3);
 
      
@@ -414,7 +249,7 @@ overflow: hidden;
           /* background: rgba(244, 236, 247, 0.7); /*semitransparente */
 /*     
    backdrop-filter: blur(12px); 🔥 esto crea el efecto borroso  */
-
+    
 
 
 
@@ -425,7 +260,7 @@ border: 2px inset  black;
  /* box-shadow: 5px 5px 10px rgba(0,0,0,0.3); */
 
  box-shadow: inset 0 2px 5px rgba(0,0,0,0.3);
-color:white;
+color:rgb(24, 23, 23);
 
  font-weight: bold;
 }
@@ -437,6 +272,74 @@ color:white;
 
   
 }
+
+
+
+
+.miniCardProducto{
+    
+    height: 40%;
+    border:solid #ba92d3 1px;
+    padding: 1px;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+        
+    
+}
+
+.miniCardProductoImg{
+
+       border:solid #a456d4 1px;
+   width: 100%;
+       overflow: hidden;
+background-color: white;
+     /* background-image: url("./img/1A.jpg"); */
+ 
+    display: flex;
+    justify-content: center;
+background-color: white;
+   
+}
+.miniCardProductoImg img{
+    border:solid black 1px;
+    height: 120%;
+    
+
+      
+}
+
+
+.miniCardProductoDescripcion{
+
+    border: solid white 1px;
+   
+    color:white;
+    
+
+
+     background: rgba(67, 14, 87, 0.7); /*semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+font-size: 10px;
+   
+
+   
+    
+}
+
+
+
 
 @media screen and (max-width:768px){
 
@@ -485,6 +388,7 @@ color:white;
         width:100%;
         font-size: 10px;
         background-color:  #a456d4;
+        background-color:  green;
 
 
     };
@@ -531,7 +435,7 @@ color:white;
 
  
     #barraFiltros button{
-        background-color: green;
+        background-color: yellow;
         height: 10vh;
 
     };
@@ -553,42 +457,18 @@ color:white;
           font-size:1rem;
               
               background-color:  #a456d4;;
-    
+
               
         border-top: black 2px;
         border-left: black 2px;
 
         border-bottom: white 1.5px solid;
         border-right: white 1.5px solid;
-        height: 25%;
+       margin-bottom: 4px;
     };
 }
-/* 
-#contenidoVistaChica{
 
-     border:solid black 4px;
-
-   overflow-y: scroll;
-   gap:2px; 
-    display: flex;
-   flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-
-
-    width: 100%;
-      display: flex;
-    flex-direction: row;
-    padding: 1px;
-  
-    flex-wrap: wrap;
-    gap:3px; 
-
-  
-    
-} */
 #contenidoVistaChica div{
-   /* width: 100%;
-   height:100%; */
-   
+
 }
+
