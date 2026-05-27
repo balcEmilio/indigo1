@@ -1,7 +1,8 @@
 body{
-    background-image: url("./img/1B.jpg");
-    background-size: cover;
-
+    background-image: url("./img/1H.jpg");
+    background-size:auto;
+background-repeat: repeat;
+   
     
 }
 
@@ -9,16 +10,29 @@ body{
   box-sizing: border-box;
 }
 
+.divContenedorInicio{
+    border:solid red 10px;
+
+   overflow: hidden;
+
+    width:100%; 
+
+
+
+   
+     
+
+}
 
 /* el contenedor principal del la plantilla de inicio de navegacion de usuario */
 .containerPrincipal{
   
 
      background-color: grey;
-     background-image: url("https://wallpapers.com/images/high/indigo-ggt7xhxuo1yn46n7.webp");
+     /* background-image: url("https://wallpapers.com/images/high/indigo-ggt7xhxuo1yn46n7.webp"); */
     /* width: 100%; */
-    height: 118vh;
-    border:solid red 3px;
+    height: 150%;
+    border:solid black 3px;
      gap:2px; 
 
      display: flex;
@@ -29,8 +43,11 @@ body{
     background-position: center;
 
    background-size: cover;
-   
+    
+   background-image: url("./img/1B.jpg");
+    background-size:auto;
 
+background-repeat: repeat;
 
 }
 
@@ -52,7 +69,7 @@ body{
 }
 
 .contenedorNavBar{
-    border:solid black 1px;
+    border:solid transparent 1px;
     height: 8vh;
 
     /* background-color: rgb(180, 158, 182); */
@@ -106,91 +123,97 @@ body{
   color:white;
 }
 
-.contenedorInicio{
+.divContenedorInicio{
 
-    border:solid black 1px;
+    border:solid transparent 8px;
 
-    
-    height: 78vh;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url("./img/1g.jpg");
+   
+    /* background-image: url("./img/1g.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;;
-    
- 
 
-
+   padding: 1%;
 
 }
 
 
 
 
-
-.divContenedorInicio{
-    border:solid black 1px;
-    height: 90vh;
-   overflow: hidden;
-
-    width:100%; 
-   
-    
-}
 
 
 #divContenedorInicio2{
-    border:solid black 1px;
-    height: 100%;
+    border:solid white 10px;
+  
     overflow: hidden;
+  /* background-color: green; */
+     padding: 0.8rem;
+gap:1%;
 
-    
+     
 }
 
 
 
 #ventanaVistaPequena{
-    border:solid white 1px;
-    height: 83%;
-   
+    border:solid black 10px;
+    border-radius: 5px;
+  
+  
 
+             background: rgba(119, 55, 192, 0.7); /*semitransparente */
+             /* background: rgba(146, 145, 145, 0.644); semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+
+  
+ height: 100vh;
 }
 
 
 #ventanaVistaGrande{
-    border:solid black 1px;
-    
+    border:solid white 1px;
+    height: 100vh;
       
     
-    height: 95%;
-    background-color: transparent;
+   
+    
   
 
 }
 
 #tituloMiniCards{
-    border:solid white 1px;
+    border:solid red 1px;
     height: 10%;
     width: 100%;
-    background-color: transparent;
+    border-radius: 3%;
 
 }
 
 #contenidoVistaChica{
-    border:solid white 1px;
-    height: 87%;
- width: 100%;
-    display: flex;
+    border:solid white 2px;
+   
+
+    /* display: flex;
     flex-direction: row;
 
     justify-content: center;
     flex-wrap: wrap;
-   
-
+   padding: 2%;
+ overflow-y: scroll;
     align-items: center;
-    overflow-y: scroll;
-    
+    overflow-y: scroll; */
+    height: 100%;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+  overflow-y: scroll;
+
      
     
 }
@@ -209,29 +232,31 @@ body{
    
 }
 
+
+/* deberia llamarse barraCategorias disponibles */
 #barraFiltros{
     /* margin:2px 2px; */
     /* width: 99%; */
      border:solid white 1px;
      display: flex;
      flex-direction: row;
-     gap: 1%;
+  border-radius: 4px;
+     gap: 8%;
      height: 8%;
-
-         background: rgba(97, 54, 112, 0.7); /*semitransparente */
-    
+     background: rgba(97, 54, 112, 0.7); /*semitransparente */
+    padding: 1%;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
-
+   
 }
 
 #barraFiltros button{
- color:black;
+ color:white;
 
     /* width:10%; */
    
+text-decoration: dashed;
 
-
- text-align: top center;
+font-weight: bold;
 
 
 
@@ -278,18 +303,13 @@ color:rgb(24, 23, 23);
 
 .miniCardProducto{
     
-    height: 40%;
     border:solid #ba92d3 1px;
     padding: 1px;
 
+   
     
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
         
-    
+   
 }
 
 .miniCardProductoImg{
@@ -297,44 +317,57 @@ color:rgb(24, 23, 23);
        border:solid #a456d4 1px;
    width: 100%;
        overflow: hidden;
-background-color: white;
+
      /* background-image: url("./img/1A.jpg"); */
  
-    display: flex;
-    justify-content: center;
-background-color: white;
+    
+/* background-image: url("https://drive.google.com/file/d/1r4Ac86wdu1VRwconSM03emxxts9T-yBx/view?usp=drive_link");
+    */
+
+    /* background-image: url("https://res.cloudinary.com/drlgl8o00/image/upload/v1774402767/uniK1500x1000_dtcwuk.png"); */
+
+             background: rgba(215, 213, 216, 0.7); /*semitransparente */
+
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+   height: 70%;
+
+
+   display: flex;
+align-items: center;
+    
    
+
 }
 .miniCardProductoImg img{
-    border:solid black 1px;
-    height: 120%;
-    
+    border:solid white 1px;
 
+ 
+     width:100%;
+    height:auto;
+
+      
       
 }
 
 
 .miniCardProductoDescripcion{
 
-    border: solid white 1px;
+    border: solid black 1px;
    
     color:white;
-    
+    padding: 1px;
 
 
      background: rgba(67, 14, 87, 0.7); /*semitransparente */
     
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+
 overflow: hidden;
 font-size: 10px;
-   
+display: flex;
+flex-direction: column;
 
-   
+    
     
 }
 
@@ -354,12 +387,20 @@ font-size: 10px;
     /* background-color: rgb(132, 209, 145);  */
     background-color:  #a456d4;
     color:white;
-    height: 20px;
-
+    height: 25px;
+    font-weight: bold;
     border-right: black 3px solid;
     border-bottom: black 3px solid;
     margin-bottom: 1px;
+    text-align: top;
+    font-size: 9px;
+    
    
+};
+
+#contenidoVistaChica{
+    height:100%;
+  
 };
 }
 
@@ -369,7 +410,7 @@ font-size: 10px;
     width: 30%;
     background-color: #a456d4;
     margin-left: 0px;
-    font-size: 0.5px;
+    /* font-size: 0.5px; */
  
   };
   
@@ -379,21 +420,29 @@ font-size: 10px;
     #barraFiltros{
         flex-direction: column;
         /* background-color: blue; */
-      height: 100vh;
+      height: 82vh;
         overflow-y: scroll;
-    
+    gap:4px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
     
     };
     #barraFiltros button{
-        width:100%;
-        font-size: 10px;
-        background-color:  #a456d4;
-        background-color:  green;
+        width:80%;
+        /* font-size: 10px; */
+        background-color:  #9c3eda;
+        /* background-color:  green; */
 
 
     };
+    #ventanaVistaPequena{
+        height: 90vh;
+    }
 
 } 
+
+
 
 @media screen and (max-width:768px){
     #barraFiltros{
@@ -415,11 +464,20 @@ font-size: 10px;
         margin-top: 2px;
         width:auto;
         text-align: center;
-              font-size: 0.6rem;
+              /* font-size: 0.6rem; */
+              
          
            
-    }
+    };
+    #ventanaVistaPequena{
+        border:solid green 2px;
+        height: 100vh;
+    };
 
+    #contenidoVistaChica{
+        border:solid green 2px;
+        height: 100%
+    }
 
 
    
@@ -454,7 +512,7 @@ font-size: 10px;
     
     };
     #barraFiltros button{
-          font-size:1rem;
+          /* font-size:1rem; */
               
               background-color:  #a456d4;;
 
@@ -466,9 +524,24 @@ font-size: 10px;
         border-right: white 1.5px solid;
        margin-bottom: 4px;
     };
+    .miniCardProducto{
+       
+    }
+}
+
+@media screen and(min-width:990px) and (max-width:1200px){
+    #contenidoVistaChica{
+    height: 100%;
+    border:solid green 2px;
+};
 }
 
 #contenidoVistaChica div{
 
 }
+
+#divContenedorInicio2 button{
+
+}
+
 
