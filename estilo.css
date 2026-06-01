@@ -633,6 +633,18 @@ hay que poner la ventanavistapequena de foma horizontal */
     border:solid green 2px;
 };
 
+#divContenedorInicio2{
+    border:solid white 1px;
+  
+    overflow: hidden;
+  /* background-color: green; */
+     padding: 0.8rem;
+gap:1%;
+height: 100%;
+
+     
+};
+
 
 
 #ventanaVistaPequena{
