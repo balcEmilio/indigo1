@@ -38,7 +38,7 @@ cards.forEach(card => {
     document.getElementById("descripcionGrande").textContent =
         descripcion;
 
-    console.log("click");
+
 
 
     });
