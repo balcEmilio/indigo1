@@ -165,7 +165,7 @@ gap:1%;
 #ventanaVistaPequena{
     border:solid black 1px;
     border-radius: 5px;
-    width: 40%;
+    width: 30%;
   
   
 
@@ -175,15 +175,19 @@ gap:1%;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
   
- height: 100%;
+ height: 70vh;
+display: flex;
+ align-items: center;
+justify-content: center;
+     
 }
 
 
 #ventanaVistaGrande{
     border:solid black 1px;
-    height: 100vh;
+    height: 70vh;
       
-     width: 55%;
+     width: 65%;
    
     
   
@@ -211,7 +215,7 @@ gap:1%;
  overflow-y: scroll;
     align-items: center;
     overflow-y: scroll; */
-    height: 100%;
+    height: 95%;
 
 display: flex;
 flex-direction: row;
@@ -219,13 +223,12 @@ flex-wrap: wrap;
 
   overflow-y: scroll;
 
-     
     
 }
 
 #contenedorCarrouselVistaProducto{
     border:solid white 1px;
-    height: 65%;
+    height: 50%;
     overflow-y: hidden;
     margin:1px auto auto auto;
     display: flex;
@@ -239,9 +242,9 @@ flex-wrap: wrap;
 }
 
 #contenedorCarrouselVistaProducto img{
-         width:80%;
-    height:90%;
-    border:solid black 2px;
+         width:auto;
+    height:auto;
+    border:solid white 2px;
 }
 
 #contenedorDetallesVistaProducto{
@@ -331,7 +334,7 @@ color:rgb(24, 23, 23);
     border:solid #ba92d3 1px;
     padding: 1px;
 
-    height: 15%;
+    height: 30%;
    
     
         
@@ -380,7 +383,7 @@ align-items: center;
 
     border: solid black 1px;
    
-    color:white;
+    color:hotpink;
     padding: 1px;
 
 
@@ -397,59 +400,24 @@ height: 50%;
     
 }
 
-
-
-
-@media screen and (max-width:768px){
-
-   
-   #barraFiltros button{
-    /* width: 10%; */
-    
-
-    overflow: hidden;
-
- 
-    /* background-color: rgb(132, 209, 145);  */
-    background-color:  #a456d4;
-    color:white;
-    height: 25px;
-    font-weight: bold;
-    border-right: black 3px solid;
-    border-bottom: black 3px solid;
-    margin-bottom: 1px;
-    text-align: top;
-    font-size: 9px;
-    
-   
+@media (min-width: 576px){
+    .miniCardProducto{
+        height: 12%;
+    }
+   #pDescripcionChica{
+    color: red;
 };
-
-#contenidoVistaChica{
-    height:100%;
-
-};
-
-#contenedorCarrouselVistaProducto img{
-         width:100%;
-    height:80%;
-    border:solid black 2px;
+.miniCardProductoDescripcion{
+    color:blue;
 };
 }
 
-@media screen and (max-width:380px){
 
-   #barraFiltros button{
-    width: 30%;
-    background-color: #a456d4;
-    margin-left: 0px;
-    /* font-size: 0.5px; */
- 
-  };
-  
-}
-
-@media screen and (min-width:768px) and (max-width:990px){
-    #barraFiltros{
+@media (min-width: 768px) { 
+.miniCardProductoDescripcion{
+    color:greenyellow;
+};
+        #barraFiltros{
         flex-direction: column;
         /* background-color: blue; */
       height: 82vh;
@@ -508,11 +476,178 @@ height: 50%;
 
 
 
+
+}
+
+
+@media (min-width: 992px) { 
+
+
+        #contenidoVistaChica{
+    height: 100%;
+    border:solid green 2px;
+};
+
+#divContenedorInicio2{
+    border:solid white 1px;
+  
+    overflow: hidden;
+  /* background-color: green; */
+     padding: 0.8rem;
+gap:1%;
+height: 100%;
+
+     
+};
+
+
+
+#ventanaVistaPequena{
+    border:solid greenyellow 10px;
+    border-radius: 5px;
+  
+  
+
+             background: rgba(119, 55, 192, 0.7); /*semitransparente */
+             /* background: rgba(146, 145, 145, 0.644); semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+
+  
+ height: 100%;
+}
+    
+
+
+
+
+}
+
+
+
+
+
+/*
+
+@media screen and (max-width:768px){
+
+   
+   #barraFiltros button{
+
+    
+
+    overflow: hidden;
+
+ 
+
+    background-color:  #a456d4;
+    color:white;
+    height: 25px;
+    font-weight: bold;
+    border-right: black 3px solid;
+    border-bottom: black 3px solid;
+    margin-bottom: 1px;
+    text-align: top;
+    font-size: 9px;
+    
+   
+};
+
+#contenidoVistaChica{
+    height:100%;
+
+};
+
+#contenedorCarrouselVistaProducto img{
+         width:100%;
+    height:80%;
+    border:solid black 2px;
+};
+}
+*/
+
+@media screen and (max-width:380px){
+
+   #barraFiltros button{
+    width: 30%;
+    background-color: #a456d4;
+    margin-left: 0px;
+    /* font-size: 0.5px; */
+ 
+  };
+  
+}
+
+
+/*
+@media screen and (min-width:768px) and (max-width:990px){
+    #barraFiltros{
+        flex-direction: column;
+        
+      height: 82vh;
+        overflow-y: scroll;
+    gap:4px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    
+    };
+    #barraFiltros button{
+        width:80%;
+
+        background-color:  #9c3eda;
+  
+
+
+    };
+    
+    .miniCardProducto{
+    
+        border:solid    white 1px;
+    
+
+        height: 20%;
+
+    }; 
+
+    
+     #ventanaVistaPequena{
+        border: solid white 2px;
+        height: 100%;
+        width: 35%;
+        
+        };
+          #contenidoVistaChica{
+        border:solid white 2px;
+        height: 100vh;
+        width: 100%;
+    };
+
+
+
+    #ventanaVistaGrande{
+        height: 65%;
+        border: solid white 2px;
+        width:60%;
+       
+    }; 
+
+#contenedorCarrouselVistaProducto img{
+         width:100%;
+    height:80%;
+    border:solid black 2px;
+}; 
+
+
+
 } 
 
+*/
 
 /* usar esto desde 600px hacia arriba, desde ese valor hacia abajo
 hay que poner la ventanavistapequena de foma horizontal */
+
+/*
 @media screen and (max-width:768px){
     #barraFiltros{
       
@@ -533,7 +668,7 @@ hay que poner la ventanavistapequena de foma horizontal */
         margin-top: 2px;
         width:auto;
         text-align: center;
-              /* font-size: 0.6rem; */
+            
               
          
            
@@ -560,12 +695,14 @@ hay que poner la ventanavistapequena de foma horizontal */
         width: 100%;
          
     }; 
-    /* CAMBIAR AQUI EL CONTENIDO DE LA DESCRIPCION DE LAS MINICARD */
+    CAMBIAR AQUI EL CONTENIDO DE LA DESCRIPCION DE LAS MINICARD
 
     
 
    
 }
+*/
+
 
 .sinPadding{
     padding:0px;
@@ -623,7 +760,9 @@ hay que poner la ventanavistapequena de foma horizontal */
 }
  */
 
+ 
 
+/*
 @media screen and(min-width:990px) and (max-width:2000px){
 
 
@@ -637,7 +776,7 @@ hay que poner la ventanavistapequena de foma horizontal */
     border:solid white 1px;
   
     overflow: hidden;
-  /* background-color: green; */
+
      padding: 0.8rem;
 gap:1%;
 height: 100%;
@@ -653,10 +792,6 @@ height: 100%;
   
   
 
-             background: rgba(119, 55, 192, 0.7); /*semitransparente */
-             /* background: rgba(146, 145, 145, 0.644); semitransparente */
-    
-   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
   
  height: 100%;
@@ -665,6 +800,7 @@ height: 100%;
 
   
 }
+*/
 
 #contenidoVistaChica div{
 

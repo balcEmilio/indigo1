@@ -3,6 +3,16 @@ document.addEventListener("click", (e) => {
 });
 
 
+let btnRecargaCSS = document.getElementById("recargaCSS");
+btnRecargaCSS.addEventListener("click", fRecargarCSS);
+
+function fRecargarCSS(){
+    const link = document.getElementById("estilos");
+  link.href = "estilo.css?v=" + new Date().getTime();
+}
+
+
+
 
 
 let cards =
