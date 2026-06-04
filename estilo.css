@@ -175,7 +175,7 @@ gap:1%;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
   
- height: 100vh;
+ height: 140vh;
 display: flex;
  align-items: center;
 justify-content: center;
@@ -185,7 +185,7 @@ justify-content: center;
 
 #ventanaVistaGrande{
     border:solid black 1px;
-    height: 100vh;
+    height: 140vh;
       
      width: 65%;
    
