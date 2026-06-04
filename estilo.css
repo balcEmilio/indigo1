@@ -334,9 +334,9 @@ color:rgb(24, 23, 23);
     border:solid #ba92d3 1px;
     padding: 1px;
 
-    height: 15%;
+    height: 25%;
    
-    
+   
         
    
 }
@@ -383,7 +383,18 @@ align-items: center;
 
     border: solid black 1px;
    
-    color:blueviolet;
+    color:rgb(182, 130, 202);
+     /* text-shadow: 2px 2px 4px black; */
+
+
+color: #fff;
+text-shadow:
+    0 0 5px #d131d1,
+    0 0 10px #d131d1,
+    0 0 20px #d131d1,
+    0 0 40px #d131d1;
+
+    
     padding: 1px;
 
 
@@ -392,7 +403,7 @@ align-items: center;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
 overflow: hidden;
-font-size: 12px;
+font-size: 10px;
 display: flex;
 flex-direction: column;
 height: 50%;
@@ -819,4 +830,23 @@ height: 100%;
     white-space:nowrap;
     text-overflow:ellipsis;
 
+}
+
+.titulo{
+    font-size: 16px;
+}
+
+#tituloGrande{
+    color: #fff;
+text-shadow:
+    0 0 5px #d131d1,
+    0 0 10px #d131d1,
+    0 0 20px #d131d1,
+    0 0 40px #d131d1;
+
+    
+}
+
+#descripcionGrande{
+    font-size: 20px;
 }
