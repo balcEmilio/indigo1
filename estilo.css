@@ -131,7 +131,7 @@ padding: 0;
 
 .divContenedorInicio{
 
-    border:solid transparent 8px;
+    border:solid transparent 1px;
 
    
     display: flex;
@@ -152,7 +152,7 @@ padding: 0;
 
 
 #divContenedorInicio2{
-    border:solid white 1px;
+    border:solid black 1px;
   
     overflow: hidden;
   /* background-color: green; */
@@ -165,7 +165,7 @@ gap:1%;
 
 
 #ventanaVistaPequena{
-    border:solid greenyellow 1px;
+    border:solid black 1px;
     border-radius: 5px;
     width: 32%;
   
@@ -190,7 +190,7 @@ justify-content: flex-start;
     border:solid black 1px;
     height: 110vh;
       
-     width: 63%;
+     width: 67%;
    
 
      
