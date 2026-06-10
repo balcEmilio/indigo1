@@ -15,7 +15,7 @@ background-repeat: repeat;
 }
 
 .divContenedorInicio{
-    border:solid transparent 10px;
+    border:solid white 10px;
 
    overflow: hidden;
 
@@ -142,7 +142,7 @@ padding: 0;
     background-repeat: no-repeat;
     background-size: cover;;
 
-   padding:5px;
+   padding:8px;
 
 }
 
