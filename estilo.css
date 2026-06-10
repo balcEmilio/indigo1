@@ -15,7 +15,7 @@ background-repeat: repeat;
 }
 
 .divContenedorInicio{
-    border:solid red 10px;
+    border:solid transparent 10px;
 
    overflow: hidden;
 
@@ -43,7 +43,7 @@ background-repeat: repeat;
      flex-direction: column;
      margin-top: 2px;
 
-        width: 100%;
+        width: 98%;
     background-position: center;
 
    background-size: cover;
@@ -131,7 +131,7 @@ padding: 0;
 
 .divContenedorInicio{
 
-    border:solid transparent 1px;
+    border:solid red 1px;
 
    
     display: flex;
