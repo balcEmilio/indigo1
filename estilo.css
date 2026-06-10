@@ -43,7 +43,7 @@ background-repeat: repeat;
      flex-direction: column;
      margin-top: 2px;
 
-        width: 98%;
+        width: 100%;
     background-position: center;
 
    background-size: cover;
@@ -142,7 +142,7 @@ padding: 0;
     background-repeat: no-repeat;
     background-size: cover;;
 
-   padding:15px;
+   padding:12px;
 
 }
 
