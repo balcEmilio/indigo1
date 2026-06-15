@@ -240,7 +240,7 @@ margin:0;
 }
 
 #contenedorCarrouselVistaProducto{
-    border:solid white 1px;
+    border:solid white 2px;
     height: 50%;
     overflow-y: hidden;
     margin:1px auto auto auto;
