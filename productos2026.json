@@ -1,0 +1,68 @@
+{
+"productos":[
+	{
+        "id": 1,
+        "titulo": "Tazas de losa",
+        "descripcion": "Varios modelos, argentina, clubes de futbol, frases, pedi tu modelo.",
+        "precio": 5000,
+        "stock": 15,
+        "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1781069208/copy_of_tazasvarios22_tmbbra.webp",
+        "imagenes": [
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781069208/copy_of_tazasvarios22_tmbbra.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494808/tazasVarios3_bgkgi9.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494811/tazaVarios3_rnrcsf.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494813/IMG_20260523_175452_768_c1ss5c.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494821/IMG_20260523_175511_564_hdve05.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494828/tazaCumplea%C3%B1os32_iifld5.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494831/tazaCumplea%C3%B1os22_dmav7k.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495102/tazaSe%C3%B1o1_slh7zd.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495104/tazasVarios1_ghivhv.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495199/tazaFutbol1_fqq3uw.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495202/tazaFutbol4_dex08l.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495205/tazaFutbol3_e85sux.webp"],
+        "categorias": [
+                "Bazar","Tazas"
+        ]
+	},
+
+	{
+        "id": 2,
+        "titulo": "Tarjetas de presentación",
+        "descripcion": "Tarjetas para tu emprendimiento, de presentación, con tu QR, o pedinoslo y lo hacemos. Estilos 100% personalizados.",
+        "precio": 1000,
+        "stock": 15,
+        "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp",
+        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp"],
+        "categorias": ["Útiles","Tarjetas"]
+    },
+    {
+        "id": 3,
+        "titulo": "Set de jardin de niños",
+        "descripcion": "Set de jardin taza, toalla, bolsita. Con tus personajes favoritos.",
+        "precio": 10000,
+        "stock": 15,
+        "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1781495538/setJardin8_yxasqi.webp",
+        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1781495538/setJardin8_yxasqi.webp",
+        "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495541/setJardin7_q9nxwq.webp",
+        "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495543/setJardin6_qofqbg.webp",
+        "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495711/setJardin3_fhm0l6.webp",
+        "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495560/setJardin1_c0myiu.webp" ],
+        "categorias": ["Útiles Escolares"]
+    },
+    {
+          "id": 4,
+        "titulo": "Remeras personalizadas",
+        "descripcion": "Remeras con tu modelo favorito. Hace tu pedido 100% personalizado.",
+        "precio": 1000,
+        "stock": 15,
+        "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1781495890/remeraMafalda1_ioa75d.webp",
+        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1781495890/remeraMafalda1_ioa75d.webp",
+        "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495893/remeraMafalda2_pm9oes.webp",
+        "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495888/remeraMafalda3_l4hj9m.webp"],
+        "categorias": ["Ropa","Remeras"]
+    }
+
+
+
+]
+}
