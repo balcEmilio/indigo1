@@ -870,3 +870,11 @@ text-shadow:
 #descripcionGrande{
     font-size: 20px;
 }
+
+
+.contenedorCabecera{
+    background-image: url("https://www.group-indigo.com/wp-content/themes/indigo/images/default-preview-thumbnail.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

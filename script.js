@@ -1,8 +1,8 @@
 
 
 
-let btnRecargaCSS = document.getElementById("recargaCSS");
-btnRecargaCSS.addEventListener("click", fRecargarCSS);
+// let btnRecargaCSS = document.getElementById("recargaCSS");
+// btnRecargaCSS.addEventListener("click", fRecargarCSS);
 
 function fRecargarCSS(){
     const link = document.getElementById("estilos");
@@ -10,8 +10,8 @@ function fRecargarCSS(){
 }
 
 
-let btnCargarJSON = document.getElementById("cargarJSON");
-btnCargarJSON.addEventListener("click", cargarJSON);
+// let btnCargarJSON = document.getElementById("cargarJSON");
+// btnCargarJSON.addEventListener("click", cargarJSON);
 
 
 //Para cargar la infromacion a la ventana grande:
