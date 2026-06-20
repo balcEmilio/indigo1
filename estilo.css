@@ -54,14 +54,14 @@ background-repeat: repeat;
 background-repeat: repeat;
 padding: 0;
 
-
+margin:0;
 }
 
 .contenedorCabecera{
    
     
     height: 18vh;
-   border:solid black 1px;
+   border:solid white 1px;
      background-color:transparent;
     background-repeat: no-repeat;
     background-size: cover;;
@@ -71,12 +71,12 @@ padding: 0;
     
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
    text-align: center;
-
+margin:0;
 }
 
 .contenedorNavBar{
-    border:solid transparent 1px;
-    height: 8vh;
+    border:solid white 1px;
+    height: 3vh;
 
     /* background-color: rgb(180, 158, 182); */
     
@@ -90,25 +90,29 @@ padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
- 
+    justify-content: center;
+    align-items: center;
+ margin:0;
 }
 
 .contenedorNavBar button{
 
-   
-    font-size: 15px;
+   font-size: 12px;
+   font-weight: bold;
+   min-height: 100%;
+
     width:30%;
 
 
     
-
+color:black;
 
     padding: 0;
     overflow: hidden;
     border-right: 1px black solid;
     border-left: 1px white solid;
 
-    border-top: white solid 1px;
+    border-top: black solid 1px;
     border-bottom: black 1px solid;
 
     /* background:linear-gradient(90deg, #07000A, #A63EDA, #FFFFFF); */
@@ -133,7 +137,7 @@ padding: 0;
 
     border:solid white 1px;
 
-   
+   /* width: 100%; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -153,6 +157,7 @@ padding: 0;
 
 #divContenedorInicio2{
     border:solid black 1px;
+    /* width: 100%; */
   
     overflow: hidden;
   /* background-color: green; */
@@ -270,7 +275,10 @@ margin:0;
       background: rgba(67, 14, 87, 0.7); /*semitransparente */
     
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
-   
+   display: flex;
+   flex-direction: column;
+   gap:0;
+ 
 }
 
 
@@ -416,10 +424,13 @@ text-shadow:
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
 overflow: hidden;
-font-size: 10px;
+font-size: 8px;
 display: flex;
 flex-direction: column;
+
+gap:0;
 height: 50%;
+margin:0;
 
     
 }
@@ -430,6 +441,8 @@ height: 50%;
     }
    #pDescripcionChica{
     color: red;
+  
+    
 };
 .miniCardProductoDescripcion{
     color:blue;
@@ -837,16 +850,31 @@ height: 100%;
 
 
 #pDescripcionChica{
-    color: white;
- width:100px;
+    color: greenyellow;
+ width:100%;
     overflow:hidden;
     white-space:nowrap;
-    text-overflow:ellipsis;
+    
 
+
+border:solid black 1px;
+margin:0;
+
+font-size: 15px;
+}
+
+/*de cartas chicas*/
+
+#pCategorias{
+    margin:0;
+    border:solid black 1px;
+    width:100%;
 }
 
 .titulo{
     font-size: 16px;
+    border:solid black 1px;
+    margin:0;
 }
 
 #tituloGrande{
@@ -863,12 +891,15 @@ text-shadow:
     -1px  1px 0 #000,
      1px  1px 0 #000;
 
-
+     margin:0;
+border:solid black 1px;
      
 }
 
 #descripcionGrande{
     font-size: 20px;
+    margin:0;
+    border:solid black 1px;
 }
 
 
@@ -878,3 +909,4 @@ text-shadow:
     background-repeat: no-repeat;
     background-position: center;
 }
+

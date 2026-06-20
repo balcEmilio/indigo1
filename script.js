@@ -172,10 +172,11 @@ async function cargarJSON() {
 
         let pDescripcion = document.createElement("p");
         pDescripcion.setAttribute("id","pDescripcionChica");
-        pDescripcion.classList.add("descripcion");
+      //  pDescripcion.classList.add("descripcion");
 
 
         let pCategorias = document.createElement("p");
+        pCategorias.setAttribute("id","pCategorias");
 
          etiquetaImg.setAttribute("src", element.imagen1);
     divMiniCardProductoImg.appendChild(etiquetaImg);
