@@ -12,15 +12,16 @@ background-repeat: repeat;
 
 * {
   box-sizing: border-box;
+
 }
 
 .divContenedorInicio{
-    border:solid white 10px;
+    border:solid white 1px;
 
    overflow: hidden;
 
     width:100%; 
-
+background-color: #2d0675;
 
 
    
@@ -74,6 +75,11 @@ margin:0;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
    text-align: center;
 margin:0;
+ background-color: black;
+ display: flex;
+ align-items: center;
+ overflow: hidden;
+ justify-content: center;
 }
 
 .contenedorNavBar{
@@ -107,7 +113,7 @@ margin:0;
 
 
     
-color:black;
+color:white;
 
     padding: 0;
     overflow: hidden;
@@ -121,7 +127,7 @@ color:black;
 
     /* background:linear-gradient(90deg, #691096, #a456d4, #FFFFFF); */
 
-    background:linear-gradient(90deg, #FCFCFD, #A63EDA, #1E0800);
+    background:linear-gradient(10deg, #FCFCFD, #270675 , #1E0800);
     /* background:linear-gradient(90deg, #FCFCFD, #A63EDA, #FFFFFF, #FFFFFF) */
 }
 
@@ -177,8 +183,9 @@ gap:1%;
     width: 32%;
   
   
-
-             background: rgba(119, 55, 192, 0.7); /*semitransparente */
+background-color: #2d0675;
+             /* background: rgba(119, 55, 192, 0.7); */
+              /*semitransparente */
              /* background: rgba(146, 145, 145, 0.644); semitransparente */
     
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
@@ -354,7 +361,7 @@ color:rgb(24, 23, 23);
 
 .miniCardProducto{
     
-    border:solid #ba92d3 1px;
+    border:solid #2d0675  1px;
     padding: 1px;
 
     height: 25%;
@@ -366,7 +373,7 @@ color:rgb(24, 23, 23);
 
 .miniCardProductoImg{
 
-       border:solid #a456d4 1px;
+       border:solid #2d0675  1px;
    width: 100%;
        overflow: hidden;
 
@@ -421,8 +428,9 @@ text-shadow:
     padding: 1px;
 
 
-     background: rgba(67, 14, 87, 0.7); /*semitransparente */
-    
+     /* background: rgba(67, 14, 87, 0.7);  */
+     /*semitransparente */
+    background-color: #2d0675;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
 overflow: hidden;
@@ -609,7 +617,7 @@ height: 100%;
 
    #barraFiltros button{
     width: 30%;
-    background-color: #a456d4;
+    background-color: #340670;
     margin-left: 0px;
     /* font-size: 0.5px; */
  
@@ -852,7 +860,7 @@ height: 100%;
 
 
 #pDescripcionChica{
-    color: greenyellow;
+    color: white;
  width:100%;
     overflow:hidden;
     white-space:nowrap;
@@ -905,10 +913,23 @@ border:solid black 1px;
 }
 
 
-.contenedorCabecera{
-    background-image: url("https://www.group-indigo.com/wp-content/themes/indigo/images/default-preview-thumbnail.svg");
-    background-size: cover;
+.contenedorCabecera img{
+    /* background-image: url("https://www.group-indigo.com/wp-content/themes/indigo/images/default-preview-thumbnail.svg"); */
+    /* background-image: url("https://res.cloudinary.com/drlgl8o00/image/upload/v1782183999/IMG-20260615-WA0006_uo5s60.webp"); */
+   
+   
+   
+   /* https://res.cloudinary.com/drlgl8o00/image/upload/v1782183999/IMG-20260615-WA0006_uo5s60.webp */
+    /* background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+     */
+
+    /* object-fit: contain; o contain */
+   height: 118%;
+   width: 98%;
+  
+   
+
 }
+
 
