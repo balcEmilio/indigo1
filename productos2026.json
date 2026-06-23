@@ -38,7 +38,7 @@
     {
         "id": 3,
         "titulo": "Set de jardin de niños",
-        "descripcion": "Set de jardin taza, toalla, bolsita. Con tus personajes favoritos.",
+        "descripcion": "Set de jardin taza, toalla, servilleta. Con tus personajes favoritos.",
         "precio": 10000,
         "stock": 15,
         "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1781495538/setJardin8_yxasqi.webp",
@@ -63,7 +63,7 @@
     },
     {
         "id": 5,
-        "titulo": "LLaveros de plastico polimero",
+        "titulo": "LLaveros de polimero",
         "descripcion": "LLaveros de muchos modelos. Personalizalos a tu medida.",
         "precio": 10000,
         "stock": 15,
@@ -91,7 +91,7 @@
         "categorias": ["Utiles escolares"]
     },
     	{
-        "id": 1,
+        "id": 7,
         "titulo": "Tazas de ceramica",
         "descripcion": "Varios modelos, argentina, clubes de futbol, frases, pedi tu modelo.",
         "precio": 5000,
