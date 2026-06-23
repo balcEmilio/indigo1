@@ -281,7 +281,9 @@ margin:0;
    
     color:white;
 
-      background: rgba(67, 14, 87, 0.7); /*semitransparente */
+    background-color: #2d0675;
+      /* background: rgba(67, 14, 87, 0.7); */
+       /*semitransparente */
     
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
    display: flex;
@@ -902,14 +904,15 @@ text-shadow:
      1px  1px 0 #000;
 
      margin:0;
-border:solid black 1px;
+     font-size: 35px;
+/* border:solid black 1px; */
      
 }
 
 #descripcionGrande{
     font-size: 20px;
     margin:0;
-    border:solid black 1px;
+    /* border:solid black 1px; */
 }
 
 
@@ -926,10 +929,36 @@ border:solid black 1px;
 
     /* object-fit: contain; o contain */
    height: 118%;
-   width: 98%;
+   width: 180%;
   
    
 
 }
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 
+    width: 60px;
+    height: 60px;
 
+    background-color: #25D366;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 35px;
+    text-decoration: none;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+    transition: transform 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    transform: scale(1.1);
+}
