@@ -366,7 +366,7 @@ color:rgb(24, 23, 23);
     border:solid #2d0675  1px;
     padding: 1px;
 
-    height: 25%;
+    height: 20%;
    
    
         
@@ -390,7 +390,7 @@ color:rgb(24, 23, 23);
              background: rgba(215, 213, 216, 0.7); /*semitransparente */
 
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
-   height: 50%;
+   height: 60%;
 
 
    display: flex;
@@ -430,9 +430,9 @@ text-shadow:
     padding: 1px;
 
 
-     /* background: rgba(67, 14, 87, 0.7);  */
+     background: rgba(51, 5, 177, 0.7); 
      /*semitransparente */
-    background-color: #2d0675;
+    /* background-color: #2d0675; */
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
 overflow: hidden;
@@ -440,8 +440,8 @@ font-size: 8px;
 display: flex;
 flex-direction: column;
 
-gap:0;
-height: 50%;
+gap:2px;
+height: 40%;
 margin:0;
 
     
@@ -866,26 +866,28 @@ height: 100%;
  width:100%;
     overflow:hidden;
     white-space:nowrap;
-    
+    text-overflow: ellipsis;
 
 
-border:solid black 1px;
+/* border:solid black 1px; */
 margin:0;
 
-font-size: 15px;
+font-size: 10px;
 }
 
 /*de cartas chicas*/
 
 #pCategorias{
+
     margin:0;
-    border:solid black 1px;
+    margin-top: 8px;
+    /* border:solid black 1px; */
     width:100%;
 }
 
 .titulo{
-    font-size: 16px;
-    border:solid black 1px;
+    font-size: 14px;
+    /* border:solid black 1px; */
     margin:0;
 }
 
