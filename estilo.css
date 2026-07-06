@@ -29,6 +29,32 @@ background-color: #2d0675;
 
 }
 
+
+.contenedorCabecera img{
+    /* background-image: url("https://www.group-indigo.com/wp-content/themes/indigo/images/default-preview-thumbnail.svg"); */
+    /* background-image: url("https://res.cloudinary.com/drlgl8o00/image/upload/v1782183999/IMG-20260615-WA0006_uo5s60.webp"); */
+   
+   
+   
+   /* https://res.cloudinary.com/drlgl8o00/image/upload/v1782183999/IMG-20260615-WA0006_uo5s60.webp */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+     */
+
+    /* object-fit: contain; o contain */
+    /* height: 118%;
+
+
+   width: 90%; 
+  
+    */
+width: 100%;
+height:125%;
+display: block;
+
+
+}
+
 /* el contenedor principal del la plantilla de inicio de navegacion de usuario */
 .containerPrincipal{
   
@@ -62,8 +88,8 @@ margin:0;
 
 .contenedorCabecera{
    
-    width:50%;
-    height: 18vh;
+    /* width:50%; */
+    height: 30vh;
    border:solid white 1px;
      background-color:transparent;
     background-repeat: no-repeat;
@@ -105,11 +131,11 @@ margin:0;
 
 .contenedorNavBar button{
 
-   font-size: 12px;
+   font-size: 10px;
    font-weight: bold;
    min-height: 100%;
 
-    width:30%;
+    width:35%;
 
 
     
@@ -129,6 +155,12 @@ color:white;
 
     background:linear-gradient(10deg, #FCFCFD, #270675 , #1E0800);
     /* background:linear-gradient(90deg, #FCFCFD, #A63EDA, #FFFFFF, #FFFFFF) */
+
+     display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+  
 }
 
 .contenedorNavBar button:hover{
@@ -255,7 +287,7 @@ margin:0;
 
 #contenedorCarrouselVistaProducto{
     border:solid white 2px;
-    height: 50%;
+    height: 60%;
     overflow-y: hidden;
     margin:1px auto auto auto;
     display: flex;
@@ -289,6 +321,8 @@ margin:0;
    display: flex;
    flex-direction: column;
    gap:0;
+
+   
  
 }
 
@@ -366,7 +400,7 @@ color:rgb(24, 23, 23);
     border:solid #2d0675  1px;
     padding: 1px;
 
-    height: 20%;
+    height: 30%;
    
    
         
@@ -424,7 +458,7 @@ text-shadow:
     0 0 5px #d131d1,
     0 0 10px #d131d1,
     0 0 20px #d131d1,
-    0 0 40px #d131d1;
+    0 0 10px #d131d1;
 
     
     padding: 1px;
@@ -449,7 +483,7 @@ margin:0;
 
 @media (min-width: 576px){
     .miniCardProducto{
-        height: 12%;
+        height: 35%;
     }
    #pDescripcionChica{
     color: red;
@@ -491,7 +525,9 @@ margin:0;
         border:solid    white 1px;
     
 
-        height: 20%;
+        height: 35%;
+        font-size: 8px;
+        color:blue;
 
     }; 
 
@@ -511,15 +547,15 @@ margin:0;
 
 
     #ventanaVistaGrande{
-        height: 65%;
-        border: solid white 2px;
+        height: 100%;
+        border: solid white 12px;
         width:60%;
        
     }; 
   
 #contenedorCarrouselVistaProducto img{
-         width:100%;
-    height:80%;
+         width:80%;
+    height:100%;
     border:solid black 2px;
 }; 
 
@@ -532,27 +568,39 @@ margin:0;
 @media (min-width: 992px) { 
 
 
-        #contenidoVistaChica{
-    height: 100%;
-    border:solid green 2px;
+    #contenidoVistaChica{
+
+        height: 100%;
+        border:solid red 2px;
+    
 };
+   
+    .miniCardProducto{
+    
+        border:solid    white 1px;
+    
 
-#divContenedorInicio2{
-    border:solid white 1px;
-  
-    overflow: hidden;
-  /* background-color: green; */
-     padding: 0.8rem;
-gap:1%;
-height: 100%;
+        height: 35%;
+        font-size: 8px;
+        color:hotpink;
 
+}; 
+
+    #divContenedorInicio2{
+        border:solid white 1px;
+    
+        overflow: hidden;
+    /* background-color: green; */
+        padding: 0.8rem;
+        gap:1%;
+        height: 100%;
      
 };
 
 
 
 #ventanaVistaPequena{
-    border:solid greenyellow 10px;
+    border:solid white 5px;
     border-radius: 5px;
   
   
@@ -563,12 +611,69 @@ height: 100%;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
   
- height: 100%;
-}
+ height: 100vh;
+};
+    #ventanaVistaGrande{
+        border:solid blue 2px;
+        height: 100vh;
+        overflow-y: scroll;
+        
+    }
+    #contenedorCarrouselVistaProducto{
+        border:solid green 2px;
+        height: 85%;
+        width: 85%;
+
+
+
+        /* border:solid white 2px; */
+    /* height: 50%; */
+    /* overflow: hidden;
+    margin:1px auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    /* background-color: black; */
+           
     
+    };
+    
+#contenedorCarrouselVistaProducto img{
+         /* width:200px; */
+    height:350px;
+    border:solid white 2px;
+}
+#contenedorDetallesVistaProducto{
+    border:solid white 1px;
+    height: 25%;
+    margin: 1px auto auto auto;
+   
+    color:white;
 
+    background-color: #2d0675;
+      /* background: rgba(67, 14, 87, 0.7); */
+       /*semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+   display: flex;
+   flex-direction: column;
+   gap:0;
 
+   font-size: 8px;
+   color:green;
+ 
+};
+.contenedorCabecera{
+    height: 50vh;
+    display: block;
+    display: flex;
+    align-items: center;
+};
+.contenedorCabecera img{
+    width: 90%;
 
+}
 
 }
 
@@ -906,8 +1011,15 @@ text-shadow:
      1px  1px 0 #000;
 
      margin:0;
-     font-size: 35px;
+     font-size: 30px;
 /* border:solid black 1px; */
+
+   text-shadow:
+    0 0 5px #000000,
+    0 0 10px #030203,
+
+    0 0 40px #050505;
+
      
 }
 
@@ -915,27 +1027,17 @@ text-shadow:
     font-size: 20px;
     margin:0;
     /* border:solid black 1px; */
+
+    text-shadow:
+    0 0 5px #9631d1,
+    0 0 10px #9631d1,
+    0 0 20px #9631d1,
+    0 0 40px #63039b;
+
+    
 }
 
 
-.contenedorCabecera img{
-    /* background-image: url("https://www.group-indigo.com/wp-content/themes/indigo/images/default-preview-thumbnail.svg"); */
-    /* background-image: url("https://res.cloudinary.com/drlgl8o00/image/upload/v1782183999/IMG-20260615-WA0006_uo5s60.webp"); */
-   
-   
-   
-   /* https://res.cloudinary.com/drlgl8o00/image/upload/v1782183999/IMG-20260615-WA0006_uo5s60.webp */
-    /* background-size: contain;
-    background-repeat: no-repeat;
-     */
-
-    /* object-fit: contain; o contain */
-   height: 118%;
-   width: 180%;
-  
-   
-
-}
 .btn-whatsapp {
     position: fixed;
     bottom: 20px;
@@ -963,4 +1065,10 @@ text-shadow:
 
 .btn-whatsapp:hover {
     transform: scale(1.1);
+}
+
+.btnCabecera{
+    display: flex;
+    flex-wrap: nowrap;
+    color:red;
 }

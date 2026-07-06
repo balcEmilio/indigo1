@@ -66,6 +66,7 @@ async function cargarCardGrande(producto){
        try {
            
            let carouselContenedor = document.getElementById("carouselContenedor");
+           let br = document.createElement("br");
 
    carouselContenedor.innerHTML="";
    let carouselIndcators = document.getElementById("carouselIndcators");
@@ -76,8 +77,15 @@ async function cargarCardGrande(producto){
         tituloGrande.innerHTML = producto.titulo;
 
         let descripcionGrande = document.getElementById("descripcionGrande");
-        descripcionGrande.innerHTML = producto.descripcion;
 
+    
+        descripcionGrande.innerHTML =`
+    
+                                    ${producto.descripcion}
+                                    <br>
+                                    <br>
+                                    <strong>Precio: $${producto.precio}</strong>
+                                    `;
     
          producto.imagenes.forEach(element => {
 
