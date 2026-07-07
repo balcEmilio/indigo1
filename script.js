@@ -100,8 +100,10 @@ async function cargarCardGrande(producto){
 
                     let imgCarousel = document.createElement("img");
                     imgCarousel.setAttribute("src", element);
+                    // imgCarousel.classList.add("w-100");
+                    imgCarousel.classList.add("img-fluid");
                     imgCarousel.classList.add("d-block");
-                    imgCarousel.classList.add("w-100");
+imgCarousel.classList.add("mx-auto");
 
                     carouselItem.appendChild(imgCarousel);
                     carouselContenedor.appendChild(carouselItem);

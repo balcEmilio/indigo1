@@ -1,7 +1,14 @@
+/* 
+
+https://www.transparenttextures.com/?utm_source=chatgpt.com
+
+!!!!!!!!!!!!!!!
+*/
+
 body{
-    background-image: url("./img/1H.jpg");
-    background-size:auto;
-background-repeat: repeat;
+background-color: #4b00ad;
+background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
    
 
  font-family: "Limelight", sans-serif;
@@ -21,8 +28,8 @@ background-repeat: repeat;
    overflow: hidden;
 
     width:100%; 
-background-color: #2d0675;
-
+/* background-color: #2d0675; */
+background-color: transparent;
 
    
      
@@ -49,7 +56,7 @@ background-color: #2d0675;
   
     */
 width: 100%;
-height:125%;
+/* height:100%; */
 display: block;
 
 
@@ -59,7 +66,9 @@ display: block;
 .containerPrincipal{
   
 
-     background-color: grey;
+     /* background-color: grey;
+      */
+      background-color: transparent;
      /* background-image: url("https://wallpapers.com/images/high/indigo-ggt7xhxuo1yn46n7.webp"); */
     width: 50%;
     height: 150%;
@@ -93,7 +102,7 @@ margin:0;
    border:solid white 1px;
      background-color:transparent;
     background-repeat: no-repeat;
-    background-size: cover;;
+  
     
 
              background: rgba(158, 82, 185, 0.7); /*semitransparente */
@@ -107,10 +116,14 @@ margin:0;
  overflow: hidden;
  justify-content: center;
 }
+.contenedorCabecera img{
+    width: 100%;
+    height: 200px;
+}
 
 .contenedorNavBar{
     border:solid white 1px;
-    height: 3vh;
+    height: 6vh;
 
     /* background-color: rgb(180, 158, 182); */
     
@@ -126,16 +139,17 @@ margin:0;
     display: flex;
     justify-content: center;
     align-items: center;
+   
  margin:0;
 }
 
 .contenedorNavBar button{
 
-   font-size: 10px;
+   font-size: 12px;
    font-weight: bold;
    min-height: 100%;
 
-    width:35%;
+    width:45%;
 
 
     
@@ -157,9 +171,10 @@ color:white;
     /* background:linear-gradient(90deg, #FCFCFD, #A63EDA, #FFFFFF, #FFFFFF) */
 
      display: flex;
-    flex-wrap: nowrap;
+    
     text-align: center;
     justify-content: center;
+    align-items: center;
   
 }
 
@@ -192,6 +207,25 @@ color:white;
 
 
 
+#ventanaVistaGrande{
+    border:solid white 2px;
+    height: 100vh;
+      
+     width: 67%;
+   
+
+     
+             background: rgba(119, 55, 192, 0.7); /*semitransparente */
+             /* background: rgba(146, 145, 145, 0.644); semitransparente */
+    
+   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+    padding:0;
+
+display: flex;
+flex-direction: column;
+
+}
+
 
 
 
@@ -214,8 +248,8 @@ gap:1%;
     border-radius: 5px;
     width: 32%;
   
-  
-background-color: #2d0675;
+  background-color: transparent;
+/* background-color: #2d0675; */
              /* background: rgba(119, 55, 192, 0.7); */
               /*semitransparente */
              /* background: rgba(146, 145, 145, 0.644); semitransparente */
@@ -231,24 +265,6 @@ justify-content: flex-start;
     padding:0; 
 }
 
-
-#ventanaVistaGrande{
-    border:solid black 1px;
-    height: 100vh;
-      
-     width: 67%;
-   
-
-     
-             background: rgba(119, 55, 192, 0.7); /*semitransparente */
-             /* background: rgba(146, 145, 145, 0.644); semitransparente */
-    
-   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
-    padding:0;
-
-
-
-}
 
 #tituloMiniCards{
     border:solid red 1px;
@@ -286,25 +302,27 @@ margin:0;
 }
 
 #contenedorCarrouselVistaProducto{
-    border:solid white 2px;
-    height: 60%;
-    overflow-y: hidden;
-    margin:1px auto auto auto;
-    display: flex;
+    border:solid transparent 2px;
+    height: 50%;
+    /* overflow-y: hidden; */
+/* width: 50%; */
+      /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;      */
 
-    background-color: black;
+    background-color: transparent;
    
-
 
 }
 
 #contenedorCarrouselVistaProducto img{
-         width:auto;
-    height:auto;
+        object-fit: cover;
+    height:300px;
+    width: 80%;
     /* border:solid white 2px; */
 }
+
+
 
 #contenedorDetallesVistaProducto{
     border:solid white 1px;
@@ -313,7 +331,7 @@ margin:0;
    
     color:white;
 
-    background-color: #2d0675;
+    background-color: transparent;
       /* background: rgba(67, 14, 87, 0.7); */
        /*semitransparente */
     
@@ -325,6 +343,8 @@ margin:0;
    
  
 }
+
+
 
 
 /* deberia llamarse barraCategorias disponibles */
@@ -341,6 +361,13 @@ margin:0;
     padding: 1%;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
    
+}
+
+#carouselContenedor{
+    /* height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center; */
 }
 
 #barraFiltros button{
@@ -392,6 +419,9 @@ color:rgb(24, 23, 23);
   
 }
 
+.carousel-item img{
+   /* width: 100%; */
+}
 
 
 
@@ -514,8 +544,9 @@ margin:0;
     #barraFiltros button{
         width:80%;
         /* font-size: 10px; */
-        background-color:  #9c3eda;
-        /* background-color:  green; */
+        /*background-color:  #9c3eda;*/
+        background-color: transparent;
+                /* background-color:  green; */
 
 
     };
@@ -548,7 +579,7 @@ margin:0;
 
     #ventanaVistaGrande{
         height: 100%;
-        border: solid white 12px;
+        border: solid white 2px;
         width:60%;
        
     }; 
@@ -558,7 +589,21 @@ margin:0;
     height:100%;
     border:solid black 2px;
 }; 
+.contenedorNavBar {
+  
+    height:5vh;
+   
+    
 
+};
+.contenedorNavBar button{
+  
+  
+    align-items: center;
+ 
+    
+
+};
 
 
 
@@ -616,13 +661,17 @@ margin:0;
     #ventanaVistaGrande{
         border:solid blue 2px;
         height: 100vh;
-        overflow-y: scroll;
-        
+   
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+
     }
     #contenedorCarrouselVistaProducto{
         border:solid green 2px;
-        height: 85%;
-        width: 85%;
+        height: 80%;
+        width: 80%;
 
 
 
@@ -635,18 +684,21 @@ margin:0;
     justify-content: center; */
 
     /* background-color: black; */
-           
+          
     
     };
     
 #contenedorCarrouselVistaProducto img{
-         /* width:200px; */
-    height:350px;
-    border:solid white 2px;
+         /* width:100px; */
+       
+         height:430px;
+    border:solid red 2px;
 }
 #contenedorDetallesVistaProducto{
     border:solid white 1px;
     height: 25%;
+   width: 100%;
+
     margin: 1px auto auto auto;
    
     color:white;
@@ -673,7 +725,29 @@ margin:0;
 .contenedorCabecera img{
     width: 90%;
 
+};
+.contenedorNavBar {
+  
+    height:5vh;
+   
+    
+
+};
+.contenedorNavBar button{
+ 
+  
+    align-items: center;
+ 
+    
+
+};
+.divContenedorInicio{
+    padding:0px;
 }
+#divContenedorInicio2{
+    padding:0px;
+}
+
 
 }
 
