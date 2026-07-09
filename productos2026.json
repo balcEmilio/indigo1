@@ -8,19 +8,21 @@
         "stock": 15,
 
 
-        "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1781069208/copy_of_tazasvarios22_tmbbra.webp",
+        "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1781494808/tazasVarios3_bgkgi9.webp",
         "imagenes": [
                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494808/tazasVarios3_bgkgi9.webp",
                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494811/tazaVarios3_rnrcsf.webp",
-                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494813/IMG_20260523_175452_768_c1ss5c.webp",
-                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494821/IMG_20260523_175511_564_hdve05.webp",
+   
                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494828/tazaCumplea%C3%B1os32_iifld5.webp",
                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494831/tazaCumplea%C3%B1os22_dmav7k.webp",
-                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495102/tazaSe%C3%B1o1_slh7zd.webp",
-                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495104/tazasVarios1_ghivhv.webp",
                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495199/tazaFutbol1_fqq3uw.webp",
                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495202/tazaFutbol4_dex08l.webp",
-                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495205/tazaFutbol3_e85sux.webp"],
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495205/tazaFutbol3_e85sux.webp",
+                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494813/IMG_20260523_175452_768_c1ss5c.webp",
+                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495102/tazaSe%C3%B1o1_slh7zd.webp",
+                "https://res.cloudinary.com/drlgl8o00/image/upload/v1781495104/tazasVarios1_ghivhv.webp",
+            
+                 "https://res.cloudinary.com/drlgl8o00/image/upload/v1781494821/IMG_20260523_175511_564_hdve05.webp"],
         "categorias": [
                 "Bazar","Tazas"
         ]
@@ -33,7 +35,9 @@
         "precio":"-",
         "stock": 15,
         "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp",
-        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp"],
+        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp",
+            "https://res.cloudinary.com/drlgl8o00/image/upload/v1783573098/1111_bhhait.webp",
+            "https://res.cloudinary.com/drlgl8o00/image/upload/v1783573100/22222_dtkaz9.jpg"],
         "categorias": ["Útiles","Tarjetas"]
     },
     {
