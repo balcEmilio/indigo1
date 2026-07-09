@@ -204,7 +204,7 @@ async function cargarJSON() {
 
         
         divMiniCardProductoDescripcion.appendChild(h5);
-        divMiniCardProductoDescripcion.appendChild(pDescripcion);
+        // divMiniCardProductoDescripcion.appendChild(pDescripcion);
         divMiniCardProductoDescripcion.appendChild(pCategorias);
 
 
