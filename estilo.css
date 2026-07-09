@@ -306,7 +306,7 @@ margin:0;
 
 #contenedorCarrouselVistaProducto{
     border:solid transparent 2px;
-    height: 40%;
+    height: 60%;
      overflow-y: hidden; 
 /* width: 50%; */
        display: flex;
@@ -434,7 +434,7 @@ color:rgb(24, 23, 23);
     border:solid #2d0675  1px;
     padding: 1px;
 
-    height: 30%;
+    height: 38%;
    
    
         
@@ -563,7 +563,7 @@ height: 40%;
         height: 35%;
         font-size: 8px;
         color:blue;
-
+  
     }; 
 
     
@@ -577,6 +577,7 @@ height: 40%;
         border:solid white 2px;
         height: 100vh;
         width: 100%;
+            /* padding: 10px; */
     };
 
 
@@ -623,23 +624,24 @@ height: 40%;
     #contenidoVistaChica{
 
         height: 100%;
-        border:solid red 2px;
-    
+      
+        border:solid transparent 1px;
+    gap:1px;
 };
    
     .miniCardProducto{
     
         border:solid    white 1px;
     
-
-        height: 35%;
+width: 45%;
+        height: 50%;
         font-size: 8px;
         color:hotpink;
 
 }; 
 
     #divContenedorInicio2{
-        border:solid white 1px;
+        border:solid transparent 1px;
     
         overflow: hidden;
     /* background-color: green; */
@@ -652,7 +654,7 @@ height: 40%;
 
 
 #ventanaVistaPequena{
-    border:solid white 5px;
+    border:solid white 1px;
     border-radius: 5px;
   
   
@@ -676,7 +678,7 @@ height: 40%;
 
     }
     #contenedorCarrouselVistaProducto{
-        border:solid green 2px;
+        border:solid black 1px;
         height: 80%;
         width: 80%;
 
@@ -699,7 +701,7 @@ height: 40%;
          /* width:100px; */
        
          height:430px;
-    border:solid red 2px;
+    border:solid white 2px;
 }
 #contenedorDetallesVistaProducto{
     border:solid white 1px;
@@ -1095,7 +1097,7 @@ text-shadow:
      1px  1px 0 #000;
 
      margin:0;
-     font-size: 25px;
+     font-size: 35px;
 /* border:solid black 1px; */
 
    text-shadow:

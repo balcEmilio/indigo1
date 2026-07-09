@@ -95,7 +95,7 @@
         "https://res.cloudinary.com/drlgl8o00/image/upload/v1781937614/portadaEscuelaKuromi_mkq720.webp" ],
         "categorias": ["Utiles escolares"]
     },{
-        "id": 1,
+        "id": 7,
         "titulo": "Tazas de ceramica premium",
         "descripcion": "Calidad premium. Ideal para regalos, empresas y souvenirs.",
         "precio": 8500,
@@ -120,7 +120,7 @@
 	},
 
 	{
-        "id": 2,
+        "id": 8,
         "titulo": "Tarjetas de presentación 9x5 cm",
         "descripcion": "12 unidades: $3000. \n 60 unidades: $12000",
         "precio":"-",
@@ -130,7 +130,7 @@
         "categorias": ["Útiles","Tarjetas"]
     },
     {
-        "id": 3,
+        "id": 9,
         "titulo": "Set de jardin personalizado",
         "descripcion": "Incluye: Taza, mantel individual, servilleta, toalla.",
         "precio": 20000,
@@ -144,7 +144,7 @@
         "categorias": ["Útiles Escolares"]
     },
     {
-          "id": 4,
+          "id": 10,
         "titulo": "Remeras estampadas",
         "descripcion": "Personalizadas con el diseño que elijas.",
         "precio": 22000,
@@ -156,7 +156,7 @@
         "categorias": ["Ropa","Remeras"]
     },
     {
-        "id": 5,
+        "id": 11,
         "titulo": "LLaveros de polimero",
         "descripcion": "Personalizados. Ideales para souvenirs, cumpleaños y eventos. Pack x30 unidades.",
         "precio": 25000,
@@ -170,7 +170,7 @@
         "categorias": ["Útiles","LLaveros"]
     },
     {
-          "id": 6,
+          "id": 12,
         "titulo": "Portadas de asignaturas",
         "descripcion": "Portadas para tus asignaturas con tu modelo favorito. Hace tu pedido 100% personalizado. x6 unidades",
         "precio": 8000,
@@ -184,7 +184,7 @@
         "https://res.cloudinary.com/drlgl8o00/image/upload/v1781937614/portadaEscuelaKuromi_mkq720.webp" ],
         "categorias": ["Utiles escolares"]
     },{
-        "id": 1,
+        "id": 13,
         "titulo": "Tazas de ceramica premium",
         "descripcion": "Calidad premium. Ideal para regalos, empresas y souvenirs.",
         "precio": 8500,
@@ -209,7 +209,7 @@
 	},
 
 	{
-        "id": 2,
+        "id": 14,
         "titulo": "Tarjetas de presentación 9x5 cm",
         "descripcion": "12 unidades: $3000. \n 60 unidades: $12000",
         "precio":"-",
@@ -219,7 +219,7 @@
         "categorias": ["Útiles","Tarjetas"]
     },
     {
-        "id": 3,
+        "id": 15,
         "titulo": "Set de jardin personalizado",
         "descripcion": "Incluye: Taza, mantel individual, servilleta, toalla.",
         "precio": 20000,
@@ -233,7 +233,7 @@
         "categorias": ["Útiles Escolares"]
     },
     {
-          "id": 4,
+          "id": 16,
         "titulo": "Remeras estampadas",
         "descripcion": "Personalizadas con el diseño que elijas.",
         "precio": 22000,
@@ -245,7 +245,7 @@
         "categorias": ["Ropa","Remeras"]
     },
     {
-        "id": 5,
+        "id": 17,
         "titulo": "LLaveros de polimero",
         "descripcion": "Personalizados. Ideales para souvenirs, cumpleaños y eventos. Pack x30 unidades.",
         "precio": 25000,
@@ -259,7 +259,7 @@
         "categorias": ["Útiles","LLaveros"]
     },
     {
-          "id": 6,
+          "id": 18,
         "titulo": "Portadas de asignaturas",
         "descripcion": "Portadas para tus asignaturas con tu modelo favorito. Hace tu pedido 100% personalizado. x6 unidades",
         "precio": 8000,
@@ -273,7 +273,7 @@
         "https://res.cloudinary.com/drlgl8o00/image/upload/v1781937614/portadaEscuelaKuromi_mkq720.webp" ],
         "categorias": ["Utiles escolares"]
     },{
-        "id": 1,
+        "id": 19,
         "titulo": "Tazas de ceramica premium",
         "descripcion": "Calidad premium. Ideal para regalos, empresas y souvenirs.",
         "precio": 8500,
@@ -298,7 +298,7 @@
 	},
 
 	{
-        "id": 2,
+        "id": 20,
         "titulo": "Tarjetas de presentación 9x5 cm",
         "descripcion": "12 unidades: $3000. \n 60 unidades: $12000",
         "precio":"-",
@@ -308,7 +308,7 @@
         "categorias": ["Útiles","Tarjetas"]
     },
     {
-        "id": 3,
+        "id": 21,
         "titulo": "Set de jardin personalizado",
         "descripcion": "Incluye: Taza, mantel individual, servilleta, toalla.",
         "precio": 20000,
@@ -322,7 +322,7 @@
         "categorias": ["Útiles Escolares"]
     },
     {
-          "id": 4,
+          "id": 22,
         "titulo": "Remeras estampadas",
         "descripcion": "Personalizadas con el diseño que elijas.",
         "precio": 22000,
@@ -334,7 +334,7 @@
         "categorias": ["Ropa","Remeras"]
     },
     {
-        "id": 5,
+        "id": 23,
         "titulo": "LLaveros de polimero",
         "descripcion": "Personalizados. Ideales para souvenirs, cumpleaños y eventos. Pack x30 unidades.",
         "precio": 25000,
@@ -348,7 +348,7 @@
         "categorias": ["Útiles","LLaveros"]
     },
     {
-          "id": 6,
+          "id": 24,
         "titulo": "Portadas de asignaturas",
         "descripcion": "Portadas para tus asignaturas con tu modelo favorito. Hace tu pedido 100% personalizado. x6 unidades",
         "precio": 8000,
