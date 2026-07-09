@@ -7,6 +7,7 @@ https://www.transparenttextures.com/?utm_source=chatgpt.com
 
 body{
 background-color: #4b00ad;
+/* background-color: transparent; */
 background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
    
@@ -214,8 +215,8 @@ color:white;
      width: 67%;
    
 
-     
-             background: rgba(119, 55, 192, 0.7); /*semitransparente */
+     background-color: transparent;
+             /* background: rgba(119, 55, 192, 0.7); semitransparente */
              /* background: rgba(146, 145, 145, 0.644); semitransparente */
     
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
@@ -223,6 +224,8 @@ color:white;
 
 display: flex;
 flex-direction: column;
+align-items: center;
+/* justify-content: center; */
 
 }
 
@@ -325,10 +328,11 @@ margin:0;
 
 
 #contenedorDetallesVistaProducto{
-    border:solid white 1px;
+    border:solid transparent 1px;
     height: 34%;
-    margin: 1px auto auto auto;
-   
+    /* margin: 1px auto auto auto; */
+   margin-top: 2px;
+   margin-left: 1px;
     color:white;
 
     background-color: transparent;
@@ -491,7 +495,7 @@ text-shadow:
     0 0 10px #d131d1;
 
     
-    padding: 1px;
+    padding: 2px;
 
 
      background: rgba(51, 5, 177, 0.7); 
@@ -506,7 +510,7 @@ flex-direction: column;
 
 gap:2px;
 height: 40%;
-margin:0;
+
 
     
 }
@@ -706,7 +710,9 @@ margin:0;
    
     color:white;
 
-    background-color: #2d0675;
+    /* background-color: #2d0675;
+     */
+     background-color: transparent;
       /* background: rgba(67, 14, 87, 0.7); */
        /*semitransparente */
     
@@ -801,8 +807,9 @@ margin:0;
 
    #barraFiltros button{
     width: 30%;
-    background-color: #340670;
+    /* background-color: #340670; */
     margin-left: 0px;
+    background-color: transparent;
     /* font-size: 0.5px; */
  
   };
