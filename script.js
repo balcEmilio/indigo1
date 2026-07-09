@@ -83,7 +83,6 @@ async function cargarCardGrande(producto){
     
                                     ${producto.descripcion}
                                     <br>
-                                    <br>
                                     <strong>Precio: $${producto.precio}</strong>
                                     `;
     

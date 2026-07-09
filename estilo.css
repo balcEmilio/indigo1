@@ -111,7 +111,7 @@ margin:0;
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
    text-align: center;
 margin:0;
- background-color: black;
+ background-color: transparent;
  display: flex;
  align-items: center;
  overflow: hidden;
@@ -434,7 +434,7 @@ color:rgb(24, 23, 23);
     border:solid #2d0675  1px;
     padding: 1px;
 
-    height: 38%;
+    height: 40%;
    
    
         
@@ -489,22 +489,22 @@ align-items: center;
 
 color: #fff;
 text-shadow:
-    0 0 5px #d131d1,
-    0 0 10px #d131d1,
-    0 0 20px #d131d1,
-    0 0 10px #d131d1;
+    0 0 5px #9747bd,
+    0 0 10px #9747bd,
+    0 0 20px #9747bd,
+    0 0 10px #9747bd;
 
     
     padding: 2px;
 
-
-     background: rgba(51, 5, 177, 0.7); 
+background-color: transparent;
+     /* background: rgba(51, 5, 177, 0.7);  */
      /*semitransparente */
     /* background-color: #2d0675; */
    backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
 
 overflow: hidden;
-font-size: 13px;
+font-size: 15px;
 display: flex;
 flex-direction: column;
 
@@ -525,14 +525,14 @@ height: 40%;
     
 };
 .miniCardProductoDescripcion{
-    color:blue;
+    /* color:blue; */
 };
 }
 
 
 @media (min-width: 768px) { 
 .miniCardProductoDescripcion{
-    color:greenyellow;
+    /* color:greenyellow; */
 };
         #barraFiltros{
         flex-direction: column;
@@ -627,6 +627,7 @@ height: 40%;
       
         border:solid transparent 1px;
     gap:1px;
+    padding: 2px;
 };
    
     .miniCardProducto{
@@ -668,9 +669,9 @@ width: 45%;
  height: 100vh;
 };
     #ventanaVistaGrande{
-        border:solid blue 2px;
+        border:solid white 2px;
         height: 100vh;
-   
+        padding: 2px;
         /* display: flex;
         flex-direction: column;
         align-items: center;
@@ -679,7 +680,7 @@ width: 45%;
     }
     #contenedorCarrouselVistaProducto{
         border:solid black 1px;
-        height: 80%;
+        height: 75%;
         width: 80%;
 
 
@@ -700,7 +701,7 @@ width: 45%;
 #contenedorCarrouselVistaProducto img{
          /* width:100px; */
        
-         height:430px;
+         height:410px;
     border:solid white 2px;
 }
 #contenedorDetallesVistaProducto{
@@ -723,8 +724,8 @@ width: 45%;
    flex-direction: column;
    gap:0;
 
-   font-size: 8px;
-   color:green;
+   /* font-size: 8px; */
+
  
 };
 .contenedorCabecera{
@@ -732,9 +733,12 @@ width: 45%;
     display: block;
     display: flex;
     align-items: center;
+     
 };
 .contenedorCabecera img{
-    width: 90%;
+    width: 100%;
+     height: 340px;
+
 
 };
 .contenedorNavBar {
@@ -1110,7 +1114,7 @@ text-shadow:
 }
 
 #descripcionGrande{
-    font-size: 20px;
+    font-size: 22px;
     margin:0;
     /* border:solid black 1px; */
 
@@ -1152,6 +1156,53 @@ text-shadow:
 .btn-whatsapp:hover {
     transform: scale(1.1);
 }
+
+
+
+
+.btn-instagram {
+    position: fixed;
+    bottom: 20px;
+    right: 82px;
+
+    width: 60px;
+    height: 60px;
+
+    background-color: #25D366;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 35px;
+    text-decoration: none;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+    transition: transform 0.3s ease;
+
+
+    color:white;
+    text-decoration:none;
+    font-size:28px;
+    background:linear-gradient(
+        45deg,
+        #f09433,
+        #e6683c,
+        #dc2743,
+        #cc2366,
+        #bc1888
+    );
+    transition:all .3s ease;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+
+    
+}
+
 
 .btnCabecera{
     display: flex;
