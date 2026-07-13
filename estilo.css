@@ -99,8 +99,8 @@ margin:0; */
 
 .contenedorCabecera{
    
-    /* width:50%; */
-    height: 30vh;
+    /* width:100%; */
+    height: 40vh;
    border:solid transparent 1px;
      /* background-color:transparent;
     background-repeat: no-repeat; */
@@ -112,14 +112,14 @@ margin:0; */
     
    /* backdrop-filter: blur(12px);  */
    /*🔥 esto crea el efecto borroso */
-   text-align: center;
+   /* text-align: center;
 margin:0;
- background-color: transparent;
+ background-color: transparent; */
  /* display: flex;
  align-items: center;
  overflow: hidden;
  justify-content: center; */
- width: 100%;
+ /* width: 100%; */
 }
 .contenedorCabecera img{
     width: 100%;
@@ -239,7 +239,7 @@ align-items: center; */
 
 
 #divContenedorInicio2{
-    border:solid white 1px;
+    border:solid black 2px;
     /* width: 100%; */
   
     overflow: hidden;
@@ -313,23 +313,23 @@ margin:0;
 
 #contenedorCarrouselVistaProducto{
     border:solid transparent 2px;
-    height: 500px;
-    width: 100%;
+    /* height: 500px; */
+    /* width: 100%; */
      overflow-y: hidden; 
 /* width: 50%; */
        /* display: flex;
     align-items: center;
     justify-content: center;       */
     margin:1px;
-    background-color: black;
-   
+    background-color: transparent;
+   align-items: top;
 
 }
 
 #contenedorCarrouselVistaProducto img{
         /* object-fit: cover; */
-    /* height:480px; */
-    /* width: 100%; */
+    height:60vh;
+    width: 100%;
     border:solid black 2px;
 }
 
@@ -341,7 +341,7 @@ margin:0;
     border:solid transparent 1px;
     height: 34%;
     /* margin: 1px auto auto auto; */
-   margin-top: 1.5px;
+   margin-top: 0px;
    margin-left: 1px;
     color:white;
 
@@ -445,7 +445,7 @@ color:rgb(24, 23, 23);
     border:solid white  1px;
     
     width: 100%;
-    height: 35%;
+    height: 60%;
    padding:0px;
    
         
@@ -454,7 +454,7 @@ color:rgb(24, 23, 23);
 
 .miniCardProductoImg{
 
-       border:solid #2d0675  1px;
+       border:solid #2d0675  2px;
    width: 100%;
        overflow: hidden;
 
@@ -466,15 +466,16 @@ color:rgb(24, 23, 23);
 
     /* background-image: url("https://res.cloudinary.com/drlgl8o00/image/upload/v1774402767/uniK1500x1000_dtcwuk.png"); */
 
-             background: rgba(215, 213, 216, 0.7); /*semitransparente */
+             /* background: rgba(215, 213, 216, 0.7);  */
+             /*semitransparente */
 
-   backdrop-filter: blur(12px); 
+   /* backdrop-filter: blur(12px);  */
    /*🔥 esto crea el efecto borroso */
-   height: 60%;
+   height: 50%;
 
 
    display: flex;
-align-items: center;
+/* align-items: center; */
     
    
 
@@ -493,7 +494,7 @@ align-items: center;
 
 .miniCardProductoDescripcion{
 
-    border: solid black 1px;
+    border: solid white 1px;
    
     color:rgb(182, 130, 202);
      /* text-shadow: 2px 2px 4px black; */
@@ -635,7 +636,7 @@ img#imgCarousel{
     /* background-image: url("https://res.cloudinary.com/drlgl8o00/image/upload/v1783634226/indigoB_dpndjb.webp");
     background-repeat: repeat; */
     margin:auto auto;
-    height: 240px;
+    /* height: 240px; */
 };
 
 
@@ -1163,8 +1164,8 @@ text-shadow:
     bottom: 20px;
     right: 20px;
 
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
 
     background-color: #25D366;
     color: white;
@@ -1195,8 +1196,8 @@ text-shadow:
     bottom: 20px;
     right: 82px;
 
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
 
     background-color: #25D366;
     color: white;
@@ -1253,4 +1254,67 @@ text-shadow:
     background-color:rgba(0,0,0,.6);
     border-radius:50%;
     padding:5px;
+}
+
+
+/* Pantallas con una altura máxima de 500px */
+@media (min-height: 550px) and (max-height: 750px) {
+    .miniCardProducto {
+        /* CSS */
+        height: 50%;
+        border:solid white 2px;
+    };
+    .miniCardProductoDescripcion{
+        font-size: 16px;
+    };
+    .titulo{
+        font-size: 24px;
+    };
+    #contenedorCarrouselVistaProducto{
+        height: 70%;
+    };
+    #tituloGrande{
+        font-size: 29px;
+    };
+    #descripcionGrande{
+        font-size: 20px;
+    };
+}
+
+
+
+/* Pantallas con una altura máxima de 500px */
+@media (min-height: 800px)and(max-height: 1200px) {
+    .miniCardProducto {
+        /* CSS */
+        height: 50%;
+        border:solid red 2px;
+    };
+    .miniCardProductoDescripcion{
+        font-size: 16px;
+    };
+    .titulo{
+        font-size: 22px;
+    };
+ 
+    #tituloGrande{
+        font-size: 20px;
+    };
+    #descripcionGrande{
+        font-size: 18px;
+    };
+    #contenedorCarrouselVistaProducto{
+        height: 60%;
+    };
+    #contenedorCarrouselVistaProducto img{
+        /* object-fit: cover; */
+    height:50vh;
+    /* width: 100%; */
+    border:solid red 2px;
+    };
+}
+
+.contGeneral{
+    /* margin:0px; */
+    /* width: 100%; */
 }

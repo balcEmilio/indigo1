@@ -168,6 +168,8 @@ async function cargarJSON() {
         let divMiniCardProductoImg = document.createElement("div");
         divMiniCardProductoImg.classList.add("miniCardProductoImg");
         divMiniCardProductoImg.classList.add("col");
+        
+
 
         let divMiniCardProductoDescripcion = document.createElement("div");
         divMiniCardProductoDescripcion.classList.add("miniCardProductoDescripcion");
@@ -188,6 +190,10 @@ async function cargarJSON() {
         pCategorias.setAttribute("id","pCategorias");
 
          etiquetaImg.setAttribute("src", element.imagen1);
+etiquetaImg.classList.add("d-block");
+        etiquetaImg.classList.add("img-fluid");
+        etiquetaImg.classList.add("mx-auto");
+
     divMiniCardProductoImg.appendChild(etiquetaImg);
 
     
