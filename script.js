@@ -1,8 +1,8 @@
 
 
 
-let btnRecargaCSS = document.getElementById("recargaCSS");
-btnRecargaCSS.addEventListener("click", fRecargarCSS);
+// let btnRecargaCSS = document.getElementById("recargaCSS");
+// btnRecargaCSS.addEventListener("click", fRecargarCSS);
 
 function fRecargarCSS(){
     const link = document.getElementById("estilos");
@@ -188,7 +188,7 @@ async function cargarJSON() {
 
         let pCategorias = document.createElement("p");
         pCategorias.setAttribute("id","pCategorias");
-
+     
          etiquetaImg.setAttribute("src", element.imagen1);
 etiquetaImg.classList.add("d-block");
         etiquetaImg.classList.add("img-fluid");
@@ -210,7 +210,7 @@ etiquetaImg.classList.add("d-block");
         
         divMiniCardProductoDescripcion.appendChild(h5);
         // divMiniCardProductoDescripcion.appendChild(pDescripcion);
-        divMiniCardProductoDescripcion.appendChild(pCategorias);
+      //  divMiniCardProductoDescripcion.appendChild(pCategorias);
 
 
         divMiniCard.appendChild(divMiniCardProductoImg);

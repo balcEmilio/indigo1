@@ -101,7 +101,7 @@ margin:0; */
    
     /* width:100%; */
     height: 28vh;
-   border:solid red 1px;
+   border:solid white 1px;
    display: flex;
      /* background-color:transparent;
     background-repeat: no-repeat; */
@@ -142,9 +142,11 @@ margin:0;
     /* background-color: rgb(180, 158, 182); */
     
 
-             background: rgba(97, 54, 112, 0.7); /*semitransparente */
+             /* background: rgba(97, 54, 112, 0.7); */
+              /*semitransparente */
     
-   backdrop-filter: blur(12px); /*🔥 esto crea el efecto borroso */
+   /* backdrop-filter: blur(12px); */
+    /*🔥 esto crea el efecto borroso */
 
 
 
@@ -215,7 +217,8 @@ color:white;
     background-repeat: no-repeat;
     background-size: cover;;
 
-   padding:12px;
+   padding:1px;
+   overflow-y: scroll;
 
 }
 
@@ -223,9 +226,9 @@ color:white;
 
 #ventanaVistaGrande{
     border:solid white 2px;
-    height: 100vh;
+    height: 60vh;
       
-     width: 65%;
+     width:78%;
    
 
      background-color: transparent;
@@ -248,12 +251,13 @@ align-items: center; */
 
 #divContenedorInicio2{
     border:solid black 2px;
-    /* width: 100%; */
+    width: 100%;
   
     overflow: hidden;
   /* background-color: green; */
      padding: 0;
 gap:1%;
+height:60vh;
 
      
 }
@@ -263,7 +267,7 @@ gap:1%;
 #ventanaVistaPequena{
     border:solid black 1px;
     border-radius: 5px;
-    width: 32%;
+    width: 20%;
   
   background-color: transparent;
 /* background-color: #2d0675; */
@@ -275,11 +279,11 @@ gap:1%;
    /*🔥 esto crea el efecto borroso */
 
   
- height: 100vh;
+ height: 100%;
 display: flex;
  align-items: flex-start;
 justify-content: flex-start;
-
+margin:0;
     padding:0; 
 }
 
@@ -336,7 +340,7 @@ margin:0;
 
 #contenedorCarrouselVistaProducto img{
         /* object-fit: cover; */
-    height:60vh;
+    height:50%;
     width: 100%;
     border:solid black 2px;
 }
@@ -453,7 +457,7 @@ color:rgb(24, 23, 23);
     border:solid white  1px;
     
     width: 100%;
-    height: 60%;
+    height: 25%;
    padding:0px;
    
         
@@ -537,22 +541,10 @@ height: 40%;
     
 }
 
-@media (min-width: 576px){
-    .miniCardProducto{
-        height: 35%;
-    }
-   #pDescripcionChica{
-    color: red;
-  
-    
-};
-.miniCardProductoDescripcion{
-    /* color:blue; */
-};
-}
 
 
-@media (min-width: 576px) { 
+
+@media (min-width: 800px) { 
 .miniCardProductoDescripcion{
     /* color:greenyellow; */
 };
@@ -1117,12 +1109,14 @@ font-size: 10px;
     margin-top: 8px;
     /* border:solid black 1px; */
     width:100%;
+    font-size: 12px;
 }
 
 .titulo{
     /* font-size: 14px; */
     /* border:solid black 1px; */
     margin:0;
+    font-size: 16px;
 }
 
 #tituloGrande{
@@ -1271,7 +1265,7 @@ text-shadow:
 }
 
 
-@media (min-width:576px){
+@media (min-width:950px){
     .contenedorCabecera{
         height: 35vh;
         width: 100%;
@@ -1319,17 +1313,6 @@ text-shadow:
 }
 }
 
-@media (min-width:768x){
-   
-    .contenedorCabecera{
-        height: 50vh;
-        border:solid red 3px;
-    } .contenedorCabecera img{
-        height: 100%;
-        width: 100%;
-        border:solid white 3px;
-    }
-}
 
 
 
