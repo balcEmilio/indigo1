@@ -56,9 +56,9 @@ background-color: transparent;
    width: 90%; 
   
     */
-width: 100%;
+/* width: 100%; */
 /* height:100%; */
-display: block;
+/* display: block; */
 
 
 }
@@ -100,8 +100,9 @@ margin:0; */
 .contenedorCabecera{
    
     /* width:100%; */
-    height: 580px;
-   border:solid transparent 1px;
+    height: 28vh;
+   border:solid red 1px;
+   display: flex;
      /* background-color:transparent;
     background-repeat: no-repeat; */
   
@@ -120,10 +121,17 @@ margin:0;
  overflow: hidden;
  justify-content: center; */
  /* width: 100%; */
+  
+
+
+
+
+
+ /* overflow: hidden; */
 }
 .contenedorCabecera img{
-    width: 100%;
-    height: 100%;
+     width: 100%;
+    height: 100%; 
     border:solid transparent 2px;
 }
 
@@ -1257,104 +1265,94 @@ text-shadow:
 }
 
 
-/* Pantallas con una altura máxima de 500px */
-@media (min-height: 550px) and (max-height: 750px) {
-    .miniCardProducto {
-        /* CSS */
-        height: 50%;
-        border:solid white 2px;
-    };
-    .miniCardProductoDescripcion{
-        font-size: 16px;
-    };
-    .titulo{
-        font-size: 24px;
-    };
-    #contenedorCarrouselVistaProducto{
-        height: 70%;
-    };
-    #tituloGrande{
-        font-size: 29px;
-    };
-    #descripcionGrande{
-        font-size: 20px;
-    };
-}
-
-
-
-/* Pantallas con una altura máxima de 500px */
-@media (min-height: 800px)and(max-height: 1200px) {
-    .miniCardProducto {
-        /* CSS */
-        height: 50%;
-        border:solid red 2px;
-    };
-    .miniCardProductoDescripcion{
-        font-size: 16px;
-    };
-    .titulo{
-        font-size: 22px;
-    };
- 
-    #tituloGrande{
-        font-size: 20px;
-    };
-    #descripcionGrande{
-        font-size: 18px;
-    };
-    #contenedorCarrouselVistaProducto{
-        height: 60%;
-    };
-    #contenedorCarrouselVistaProducto img{
-        /* object-fit: cover; */
-    height:50vh;
-    /* width: 100%; */
-    border:solid red 2px;
-    };
-}
-
 .contGeneral{
     /* margin:0px; */
+    width: 100%;
+}
+
+
+@media (min-width:576px){
+    .contenedorCabecera{
+        height: 35vh;
+        width: 100%;
+            margin:0;
+        border:solid black 3px;
+
+    }
+    .contenedorCabecera img{
+        height: 100%;
+        width: 100%; 
+        border:solid greenyellow 3px;
+    };
+.miniCardProducto{
+    height: 40%;
+}
+.titulo{
+    font-size: 15px;
+}
+#pCategorias{
+    font-size: 12px;
+}
+#contenedorCarrouselVistaProducto{
+    height: 80%;
+    background-color: black;
+
+}
+#carouselContenedor{
+    border:solid greenyellow 2px;
+    /* height: 100%; */
+    /* width: 100%; */
+    display: flex;
+
+}
+#carouselContenedor img{
+    border:solid white 2px;
+    /* height: auto; */
     /* width: 100%; */
 }
-
-@media (min-width: 1000px) {
-    .miniCardProducto {
-        /* CSS */
-        height: 60%;
-        border:solid red 2px;
-    };
-    .miniCardProductoDescripcion{
-        font-size: 18px;
-    };
-    .titulo{
-        font-size: 24px;
-    };
-    #contenedorCarrouselVistaProducto{
-        height: 70%;
-        border:solid red 1px;
-    };
- 
-  
+#ventanaVistaPequena{
+    width: 25%;
+}
+#ventanaVistaGrande{
+    width: 70%;
+    height: 100vh;
+}
 }
 
+@media (min-width:768x){
+   
+    .contenedorCabecera{
+        height: 50vh;
+        border:solid red 3px;
+    } .contenedorCabecera img{
+        height: 100%;
+        width: 100%;
+        border:solid white 3px;
+    }
+}
+
+
+
 @media (min-width: 1400px) {
+    .contenedorCabecera{
+        border:solid white 3px;
+    }
     .miniCardProducto {
         /* CSS */
-        height: 60%;
+        height: 50%;
+        width: 100%;
         border:solid green 2px;
     };
     .miniCardProductoDescripcion{
         font-size: 24px;
     };
     .titulo{
-        font-size: 32px;
+        font-size: 28px;
     };
 
      #tituloGrande{
         font-size: 46px;
-        color:green;
+        color:red;
     };
     #descripcionGrande{
         font-size: 24px;
@@ -1362,20 +1360,29 @@ text-shadow:
 
 
  #contenedorCarrouselVistaProducto{
-        height: 70%;
-        border:solid green 1px;
+        height: 80vh;
+        border:solid red 1px;
+        
     };
       #contenedorCarrouselVistaProducto img{
         /* object-fit: cover; */
-    height:90%;
+  /* height: 100%; */
     /* width: 100%; */
     border:solid green 2px;
     };
-  
-}
 
-@media (min-width:600px) and (max-width:1000px){
-    .contenedorCabecera{
-        height: 60vh;
-    }
+      #carouselContenedor{
+        border:solid black 4px;
+        /* height: 50%; */
+          /* height: 50%; */
+    /* width: 100%; */
+    display: flex;
+    background-color: black;
+      }
+
+#carouselContenedor img{
+    border:solid white 2px;
+     height:100vh;
+    width: 100%;
+}
 }

@@ -1,8 +1,8 @@
 
 
 
-// let btnRecargaCSS = document.getElementById("recargaCSS");
-// btnRecargaCSS.addEventListener("click", fRecargarCSS);
+let btnRecargaCSS = document.getElementById("recargaCSS");
+btnRecargaCSS.addEventListener("click", fRecargarCSS);
 
 function fRecargarCSS(){
     const link = document.getElementById("estilos");
