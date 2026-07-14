@@ -226,7 +226,7 @@ color:white;
 
 #ventanaVistaGrande{
     border:solid white 2px;
-    height: 60vh;
+    height: 100%;
       
      width:78%;
    
@@ -257,7 +257,7 @@ align-items: center; */
   /* background-color: green; */
      padding: 0;
 gap:1%;
-height:60vh;
+height:150vh;
 
      
 }
@@ -266,7 +266,7 @@ height:60vh;
 
 #ventanaVistaPequena{
     border:solid black 1px;
-    border-radius: 5px;
+   
     width: 20%;
   
   background-color: transparent;
@@ -324,7 +324,7 @@ margin:0;
 }
 
 #contenedorCarrouselVistaProducto{
-    border:solid transparent 2px;
+    border:solid black 2px;
     /* height: 500px; */
     /* width: 100%; */
      overflow-y: hidden; 
@@ -335,13 +335,14 @@ margin:0;
     margin:1px;
     background-color: transparent;
    align-items: top;
+   /* height:50vh; */
 
 }
 
 #contenedorCarrouselVistaProducto img{
         /* object-fit: cover; */
-    height:50%;
-    width: 100%;
+    /* height:50%; */
+    /* width: 100%; */
     border:solid black 2px;
 }
 
@@ -350,8 +351,8 @@ margin:0;
 
 
 #contenedorDetallesVistaProducto{
-    border:solid transparent 1px;
-    height: 34%;
+    border:solid white 1px;
+    /* height: 34%; */
     /* margin: 1px auto auto auto; */
    margin-top: 0px;
    margin-left: 1px;
@@ -390,12 +391,6 @@ margin:0;
    
 }
 
-#carouselContenedor{
-    /* height: 400px;
-   display: flex;
-   align-items: center;
-   justify-content: center; */
-}
 
 #barraFiltros button{
  color:white;
@@ -581,30 +576,18 @@ height: 40%;
     }; 
 
     
-     #ventanaVistaPequena{
-        border: solid white 2px;
-        height: 100%;
-        width: 35%;
-        
-        };
-          #contenidoVistaChica{
-        border:solid white 2px;
-        height: 120vh;
-        width: 100%;
-            /* padding: 10px; */
-    };
-
+  
 
 
     #ventanaVistaGrande{
-        height: 120vh;
-        border: solid white 2px;
+        height: 100vh;
+        border: solid red 2px;
         width:60%;
        
     }; 
     #contenedorCarrouselVistaProducto{
         /* overflow-y: scroll; */
-        height: 550px;
+        /* height: 550px; */
         width: 100%;
         align-items: center;
         align-content: center;
@@ -613,7 +596,7 @@ height: 40%;
   
 #contenedorCarrouselVistaProducto img{
          /* width:95%; */
-    height:500px;
+    /* height:500px; */
     border:solid greenyellow 2px;
 }; 
 .contenedorNavBar {
@@ -646,14 +629,7 @@ img#imgCarousel{
 @media (min-width: 992px) { 
 
 
-    #contenidoVistaChica{
-
-        height: 100%;
-      
-        border:solid transparent 1px;
-    gap:1px;
-    padding: 2px;
-};
+ 
    
     .miniCardProducto{
     
@@ -679,35 +655,11 @@ width: 45%;
 
 
 
-#ventanaVistaPequena{
-    border:solid white 1px;
-    border-radius: 5px;
-  
-  
-background-color: transparent;
-             /* background: rgba(119, 55, 192, 0.7);  */
-             /*semitransparente */
-             /* background: rgba(146, 145, 145, 0.644); semitransparente */
-    
-   /* backdrop-filter: blur(12px);  */
-   /*🔥 esto crea el efecto borroso */
 
   
- height: 100vh;
-};
-    #ventanaVistaGrande{
-        border:solid white 2px;
-        height: 100vh;
-        padding: 2px;
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-
-    }
     #contenedorCarrouselVistaProducto{
         border:solid black 1px;
-        height: 420px;
+        /* height: 420px; */
         width: 100%;
 
 
@@ -728,12 +680,12 @@ background-color: transparent;
 #contenedorCarrouselVistaProducto img{
          width:70%;
        
-         height:400px;
+         /* height:400px; */
     border:solid white 2px;
 }
 #contenedorDetallesVistaProducto{
     border:solid white 1px;
-    height: 25%;
+    /* height: 25%; */
    width: 100%;
 
     margin: 1px auto auto auto;
@@ -1077,9 +1029,6 @@ height: 100%;
 }
 */
 
-#contenidoVistaChica div{
-
-}
 
 #divContenedorInicio2 button{
 
@@ -1162,9 +1111,9 @@ text-shadow:
 
 
 .btn-whatsapp {
-    position: fixed;
+    /* position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 20px; */
 
     width: 45px;
     height: 45px;
@@ -1194,9 +1143,9 @@ text-shadow:
 
 
 .btn-instagram {
-    position: fixed;
+    /* position: fixed;
     bottom: 20px;
-    right: 82px;
+    right: 82px; */
 
     width: 45px;
     height: 45px;
@@ -1264,36 +1213,55 @@ text-shadow:
     width: 100%;
 }
 
+#contenedorBotonesIndigo{
+    border:solid black 1px;
+    width: 100%;
+    /* height: 40%; */
+    background-color: black;
 
-@media (min-width:570px){
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+@media (min-width:570px)and (max-width:990px){
     .contenedorCabecera{
-        height: 35vh;
+        height: 55vh;
         width: 100%;
             margin:0;
-        border:solid black 3px;
+        border:solid white 1px;
 
     }
     .contenedorCabecera img{
         height: 100%;
         width: 100%; 
-        border:solid greenyellow 3px;
+        border:solid black 3px;
     };
 .miniCardProducto{
-    height: 40%;
+    height: 28%;
+    border:solid white 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.miniCardProductoDescripcion{
+    border:solid white 1px;
+    height: 45%;
 }
 .titulo{
-    font-size: 15px;
+    font-size: 18px;
 }
 #pCategorias{
     font-size: 12px;
 }
 #contenedorCarrouselVistaProducto{
-    height: 80%;
+    /* height: 80%; */
     background-color: black;
 
 }
 #carouselContenedor{
-    border:solid greenyellow 2px;
+    border:solid white 2px;
     /* height: 100%; */
     /* width: 100%; */
     /* display: flex; */
@@ -1305,18 +1273,19 @@ text-shadow:
     /* width: 100%; */
 }
 #ventanaVistaPequena{
-    width: 25%;
+    width: 28%;
 }
 #ventanaVistaGrande{
     width: 70%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 }
 
 
-@media (min-width:570px) and (max-width:990px){
+@media (min-width:990px) and (max-width:1400px){
+    
     .contenedorCabecera{
-        height: 35vh;
+        height: 60vh;
         width: 100%;
             margin:0;
         border:solid black 3px;
@@ -1325,7 +1294,7 @@ text-shadow:
     .contenedorCabecera img{
         height: 100%;
         width: 100%; 
-        border:solid red 3px;
+        border:solid white 3px;
     };
 .miniCardProducto{
     height: 40%;
@@ -1337,12 +1306,16 @@ text-shadow:
     font-size: 12px;
 }
 #contenedorCarrouselVistaProducto{
-    height: 50%;
-    background-color: greenyellow;
+    height: 450px;
+    background-color: black;
+    overflow-y: hidden; 
+       margin:1px;
+    /* background-color: transparent; */
+   align-items: top;
 
 }
 #carouselContenedor{
-    border:solid red 2px;
+    border:solid white 2px;
     /* height: 100%; */
     /* width: 100%; */
     /* display: flex; */
@@ -1350,15 +1323,15 @@ text-shadow:
 }
 #carouselContenedor img{
     border:solid white 2px;
-    height: 100%;
+    /* height: 100%; */
     /* width: 100%; */
 }
 #ventanaVistaPequena{
-    width: 20%;
+    width: 30%;
 }
 #ventanaVistaGrande{
-    width: 75%;
-    height:100vh;
+    width: 68%;
+    /* height:100vh; */
 }
 }
 
@@ -1371,7 +1344,7 @@ text-shadow:
     }
     .miniCardProducto {
         /* CSS */
-        height: 50%;
+        height: 40%;
         width: 100%;
         border:solid green 2px;
     };
@@ -1389,11 +1362,17 @@ text-shadow:
     #descripcionGrande{
         font-size: 24px;
     };
-
+#ventanaVistaPequena{
+    width: 30%;
+}
+#ventanaVistaGrande{
+    width: 50%;
+    /* height:100vh; */
+}
 
  #contenedorCarrouselVistaProducto{
-        height: 80vh;
-        border:solid red 1px;
+        /* height: 80vh; */
+        border:solid greenyellow 1px;
         
     };
       #contenedorCarrouselVistaProducto img{
@@ -1414,7 +1393,9 @@ text-shadow:
 
 #carouselContenedor img{
     border:solid white 2px;
-     height:100vh;
+     /* height:100vh; */
     width: 100%;
 }
 }
+
+
