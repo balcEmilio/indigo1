@@ -36,7 +36,7 @@
         "stock": 15,
         "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp",
         "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp",
-            "https://res.cloudinary.com/drlgl8o00/image/upload/v1783573098/1111_bhhait.webp",
+       "https://res.cloudinary.com/drlgl8o00/image/upload/v1784268025/1111_bhhait.webp",
             "https://res.cloudinary.com/drlgl8o00/image/upload/v1783573100/22222_dtkaz9.jpg"],
         "categorias": ["Útiles","Tarjetas"]
     },
@@ -126,7 +126,7 @@
         "precio":"-",
         "stock": 15,
         "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp",
-        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp"],
+        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp","https://res.cloudinary.com/drlgl8o00/image/upload/v1784267905/1111_bhhait.webp"],
         "categorias": ["Útiles","Tarjetas"]
     },
     {
@@ -215,7 +215,8 @@
         "precio":"-",
         "stock": 15,
         "imagen1":"https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp",
-        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp"],
+        "imagenes": ["https://res.cloudinary.com/drlgl8o00/image/upload/v1780604043/personal3.webp","https://res.cloudinary.com/drlgl8o00/image/upload/v1784267694/1111_bhhait.webp","https://res.cloudinary.com/drlgl8o00/image/upload/v1784267905/1111_bhhait.webp"],
+        
         "categorias": ["Útiles","Tarjetas"]
     },
     {
