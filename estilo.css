@@ -149,7 +149,7 @@ margin:0;
 
 .contenedorNavBar{
     border:solid transparent 1px;
-    height: 6vh;
+    height: 4vh;
 
     /* background-color: rgb(180, 158, 182); */
     
@@ -165,23 +165,24 @@ margin:0;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-   
+   width: 100%;
  margin:0;
+ padding: 0;
 }
 
 .contenedorNavBar button{
 
-   font-size: 12px;
-   font-weight: bold;
+   font-size: 14px;
+   /* font-weight: bold; */
    min-height: 100%;
 
-    width:45%;
+    width:25%;
 
 
     
-color:black;
+color:white;
 
     padding: 0;
     overflow: hidden;
