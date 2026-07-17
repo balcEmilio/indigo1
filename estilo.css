@@ -238,7 +238,7 @@ color:white;
 
 
 #ventanaVistaGrande{
-    border:solid black 2px;
+    border:solid black 1px;
     /* height: 100%; */
       
      width:78%;
@@ -266,10 +266,10 @@ align-items: center; */
 
 
 #divContenedorInicio2{
-    border:solid black 2px;
+    border:solid black 1px;
     width: 100%;
   
-    overflow: hidden;
+    overflow: scroll;
   /* background-color: green; */
 
 
@@ -315,7 +315,7 @@ margin:0;
 }
 
 #contenidoVistaChica{
-    border:solid black 2px;
+    border:solid black 1px;
    
 
     /* display: flex;
@@ -365,7 +365,7 @@ margin:0;
         /* object-fit: cover; */
     /* height:50%; */
     /* width: 100%; */
-    border:solid black 2px;
+    border:solid black 1px;
 }
 
 
@@ -705,7 +705,7 @@ width: 45%;
          width:70%;
        
          /* height:400px; */
-    border:solid black 2px;
+    border:solid black 1px;
 }
 #contenedorDetallesVistaProducto{
     border:solid black 1px;
@@ -1016,11 +1016,11 @@ font-size: 10px;
     .contenedorCabecera img{
         height:100%;
         width: 100%; 
-        border:solid black 3px;
+        border:solid black 1px;
     };
 .miniCardProducto{
     height: 28%;
-    border:solid black 2px;
+    border:solid black 1px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1048,18 +1048,18 @@ font-size: 10px;
 
 }
 #carouselContenedor img{
-    border:solid black 2px;
+    border:solid black 1px;
     /* height: auto; */
     /* width: 100%; */
 }
 #ventanaVistaPequena{
     width: 28%;
-      height: 70vh;
+      height: 100%;
 }
 #ventanaVistaGrande{
     width: 70%;
     /* height: 100vh; */
-    height: 70vh;
+    height: 100%;
 }
 }
 
@@ -1067,7 +1067,7 @@ font-size: 10px;
 @media (min-width:990px) and (max-width:1400px){
     
     .contenedorCabecera{
-        height: 40vh;
+        height: 60vh;
         width: 100%;
             margin:0;
         border:solid black 3px;
@@ -1089,12 +1089,13 @@ font-size: 10px;
     font-size: 12px;
 }
 #contenedorCarrouselVistaProducto{
-    height: 450px;
+    height: 65%;
     background-color:transparent;
     overflow-y: hidden; 
        margin:1px;
     /* background-color: transparent; */
    align-items: top;
+   display: flex;
 
 }
 #carouselContenedor{
@@ -1111,14 +1112,41 @@ font-size: 10px;
 }
 #ventanaVistaPequena{
     width: 30%;
-    height:80vh;
+    height:150vh;
 }
+#contenidoVistaChica{
+    border:solid black 1px;
+   
+
+    /* display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    flex-wrap: wrap;
+   padding: 2%;
+ overflow-y: scroll;
+    align-items: center;
+    overflow-y: scroll; */
+    height: 100%;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: flex-start;
+
+  overflow-y: scroll;
+  width: 100%;
+margin:0;
+    
+}
+
 #ventanaVistaGrande{
     width: 68%;
     /* height:100vh; */
     /* width: 70%; */
     /* height: 100vh; */
-    height: 80vh;
+    height: 150vh;
 }
 }
 
