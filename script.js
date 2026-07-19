@@ -13,11 +13,15 @@ function fRecargarCSS(){
 // let btnCargarJSON = document.getElementById("cargarJSON");
 // btnCargarJSON.addEventListener("click", cargarJSON);
 
+function quitarClases(){
+    let cards = document.querySelectorAll(".miniCardProducto");
+
+}
+
 
 //Para cargar la infromacion a la ventana grande:
 
 let productos=[];
-
 
 function encontrarObjetivoCard() {
     
@@ -30,6 +34,7 @@ let carouselContenedor = document.getElementById("carouselContenedor")
 
 cards.forEach(card => {
 
+// 
     card.addEventListener("click", () => {
 
         // console.log("Click en card");
@@ -46,10 +51,10 @@ cards.forEach(card => {
             );
 
             console.log(idProducto);
-   
+  
         cargarCardGrande(producto);
 
-    });
+    }); 
 
 });
 
@@ -64,7 +69,12 @@ async function cargarCardGrande(producto){
        
        
        try {
-           
+        
+        
+        let cards = document.querySelectorAll(".miniCardProducto");
+        let ventanaVistaPequena = document.getElementById("ventanaVistaPequena");
+        
+
            let carouselContenedor = document.getElementById("carouselContenedor");
            let br = document.createElement("br");
 
@@ -77,6 +87,12 @@ async function cargarCardGrande(producto){
         tituloGrande.innerHTML = producto.titulo;
 
         let descripcionGrande = document.getElementById("descripcionGrande");
+
+
+        cards.forEach(card => {
+            card.classList.remove("anchoCard-30");
+        });
+        ventanaVistaPequena.classList.remove("w-100");
 
     
         descripcionGrande.innerHTML =`
@@ -128,6 +144,7 @@ imgCarousel.classList.add("mx-auto");
             
             
          });
+
     } catch (error) {
         console.error(error);
     }
@@ -163,6 +180,7 @@ async function cargarJSON() {
         divMiniCard.classList.add("col-lg-4");
         divMiniCard.classList.add("col-xl-4");
         divMiniCard.classList.add("miniCardProducto");
+        divMiniCard.classList.add("anchoCard-30");
         divMiniCard.setAttribute("id",element.id);
      
         let divMiniCardProductoImg = document.createElement("div");
@@ -236,6 +254,7 @@ document.addEventListener("click", (e) => {
 
 
 });
+
 
 
 

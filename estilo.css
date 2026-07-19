@@ -373,7 +373,7 @@ margin:0;
 
 
 #contenedorDetallesVistaProducto{
-    border:solid white 1px;
+    /* border:solid white 1px; */
     /* height: 34%; */
     /* margin: 1px auto auto auto; */
    margin-top: 0px;
@@ -1006,6 +1006,9 @@ font-size: 10px;
 
     margin-top: 100px;
 }
+
+
+
 @media (min-width:570px)and (max-width:990px){
     .contenedorCabecera{
         height: 45vh;
@@ -1025,6 +1028,7 @@ font-size: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    /* width:30%; */
 }
 .miniCardProductoDescripcion{
     border:solid black 1px;
@@ -1054,6 +1058,7 @@ font-size: 10px;
     /* width: 100%; */
 }
 #ventanaVistaPequena{
+    /* width: 100%; */
     width: 28%;
       height: 100%;
       border:solid transparent 1px;
@@ -1061,7 +1066,7 @@ font-size: 10px;
 #ventanaVistaGrande{
     width: 70%;
     /* height: 100vh; */
-    height: 100%;
+    /* height: 100%; */
 }
 }
 
@@ -1157,7 +1162,7 @@ margin:0;
 
 @media (min-width: 1400px) {
     .contenedorCabecera{
-        border:solid black 3px;
+        border:solid red 3px;
     }
     .miniCardProducto {
         /* CSS */
@@ -1224,3 +1229,9 @@ margin:0;
 }
 
 
+.anchoCard-30{
+    width:30%;
+}
+.anchoVentana-100{
+    width: 100%;
+}
